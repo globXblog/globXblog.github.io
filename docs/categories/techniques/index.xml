@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>techniques on globXblog</title>
+    <link>http://example.org/categories/techniques/</link>
+    <description>Recent content in techniques on globXblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/techniques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sonification techniques: sequencing</title>
+      <link>http://example.org/blog/sonification-sequencing/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/sonification-sequencing/</guid>
+      <description>Sounds triggered by events The map below shows the main flood events of 2019, their duration and the size of the flood-affected area (for further discussion of this dataset, see the post Sonification techniques: mapping data to pitch and volume).</description>
+    </item>
+    
+    <item>
+      <title>Sonification techniques: mapping data to pitch and volume</title>
+      <link>http://example.org/blog/sonification-pitch-volume-mapping/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/sonification-pitch-volume-mapping/</guid>
+      <description>Mapping data to visual or auditory properties A common visualization technique is to use the color or size of symbols to represent data. The bubble map below shows an example.</description>
+    </item>
+    
+    <item>
+      <title>A short introduction to data sonification</title>
+      <link>http://example.org/blog/sonification-intro/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/sonification-intro/</guid>
+      <description>What is data sonification? Sonification refers to the transformation of data into sound, using some algorithmic process. Here are three examples worth a thousand words:</description>
+    </item>
+    
+  </channel>
+</rss>

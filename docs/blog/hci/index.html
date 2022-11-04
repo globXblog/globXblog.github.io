@@ -7,11 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories</title>
-<meta name="author" content="" />
+<title>Revealing Hidden Climate Indices</title>
+<meta name="author" content="Ben" />
 
 
 
+
+<meta name="keywords" content="sonification, animation, Australia, statistics">
 
 
 <meta name="description" content="">
@@ -61,13 +63,25 @@
 
 
 
-<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+<meta property="og:updated_time" content="2021-10-29T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="Exploring data">
+  <meta property="article:tag" content="sonification">
+  <meta property="article:tag" content="animation">
+  <meta property="article:tag" content="Australia">
+  <meta property="article:tag" content="statistics">
+  
+  
+  <meta property="article:published_time" content="2021-10-29T00:00:00Z">
+  <meta property="article:modified_time" content="2021-10-29T00:00:00Z">
 
 
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="Revealing Hidden Climate Indices">
 
 <meta name="twitter:description" content="">
 
@@ -88,10 +102,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logoWithText.png" alt="Categories logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.png" alt="Categories logo" class="visible-xs visible-sm" />
+                      <img src="/img/logoWithText.png" alt="Revealing Hidden Climate Indices logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="Revealing Hidden Climate Indices logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories - go to homepage</span>
+                    <span class="sr-only">Revealing Hidden Climate Indices - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -128,11 +142,13 @@
                   
 
                   
-
+                    
                   
 
                   
-                  <li class="dropdown ">
+
+                  
+                  <li class="dropdown active">
                     <a href="/blog/">Blog</a>
                   </li>
                   
@@ -223,7 +239,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>Revealing Hidden Climate Indices</h1>
             </div>
         </div>
     </div>
@@ -232,23 +248,88 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              29 October 2021
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>In a previous post, we illustrated a widely used method called <a href="blog/pca">principal component analysis (PCA)</a>. This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called <strong>principal components</strong>. The dataset illustrated below aims at characterising ‘hot-and-dry’ summers in Southeast Australia and provides an example of such a large dataset: four variables representing river droughts, precipitation deficits and heatwaves are measured at many sites, yielding a total of 445 time series spanning 100 years (the animation only shows a short 5-year extract).</p>
+<p>
+</p>
+<p><img src="/img/HCI.gif" /></p>
+<p>
+</p>
+<p>As part of the <a href="/hegs">HEGS project</a>, we developed a flexible <a href="https://en.wikipedia.org/wiki/Statistical_model">statistical model</a> that extends PCA in a way that allows computing the probability of extreme hot-and-dry events to occur across many sites and several variables (see <a href="https://doi.org/10.1029/2021WR030007">this article</a> for more details). Just as PCA, it is based on the identification of ‘summary’ time series named <strong>Hidden Climate Indices</strong> because they share similarity with the indices used to characterise climate phenomena such as the <a href="/blog/el-ninoz">El Niño - La Niña</a> oscillation.</p>
+<div id="using-both-eyes-and-ears-to-explore-the-data" class="section level1">
+<h1>Using both eyes and ears to explore the data</h1>
+<p>This type of method is also of interest to <a href="/blog/sonification-intro">sonify</a> a large dataset. Indeed, it would be challenging to create a nice-sounding piece by using each of the 445 time series above as a distinct musical instrument. However, using just a few hidden climate indices makes the task much more tractable. In the video below, the soundtrack was created using only three hidden climate indices that summarise the whole dataset shown in the animation. The technique of <a href="/blog/sonification-pitch-volume-mapping">parameter mapping</a> was used: the first hidden climate index controls the volume of the song; the second one controls the pitch of the guitar chords (inspired by a <a href="https://youtu.be/QbcW8X73MBI?t=353">Leo Brouwer’s piece</a>); the third one controls the pitch of the main melody. Note that the three hidden climate indices can be heard but cannot be seen in the video, which contrasts with <a href="/tags/sonification">previous sonification attempts</a> where the target series could be both seen and heard. This is a conscious decision we made to try to take advantage of the complementary properties of eyes and ears.</p>
+<p>
+</p>
+<iframe src="https://player.vimeo.com/video/600898709" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+<p>This video highlights several key events and patterns in this dataset:</p>
+<ul>
+<li>The summer of 1982 (from December 1982 to February 1983) is very loud. It was part of a particularly severe <a href="https://en.wikipedia.org/wiki/Drought_in_Australia#1980s">drought event</a> that culminated in the <a href="https://en.wikipedia.org/wiki/Ash_Wednesday_bushfires">Ash Wednesday bushfires</a>.</li>
+<li>The period 2002-2006 as a whole is also particularly loud, corresponding to the <a href="https://en.wikipedia.org/wiki/2000s_Australian_drought">Millennium drought</a>.</li>
+<li>Starting from 1999, the main melody is almost exclusively high-pitched, whereas low-pitched notes were used much more frequently at the beginning of the video. This can be interpreted as a <a href="http://www.bom.gov.au/climate/change/#tabs=Tracker&amp;tracker=timeseries&amp;tQ=graph%3Dtmean%26area%3Dseaus%26season%3D1202%26ave_yr%3D0">warming</a> melody.</li>
+</ul>
+<hr />
+<p><strong>Authors</strong>: Ben (sonification, writing) &amp; Chloe (animation, writing)</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/hci">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
                         
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -386,6 +467,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>

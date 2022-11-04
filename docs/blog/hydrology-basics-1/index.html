@@ -7,11 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories</title>
-<meta name="author" content="" />
+<title>Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration</title>
+<meta name="author" content="Ben" />
 
 
 
+
+<meta name="keywords" content="sonification, animation">
 
 
 <meta name="description" content="">
@@ -61,13 +63,23 @@
 
 
 
-<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+<meta property="og:updated_time" content="2020-12-10T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="Hydrology basics">
+  <meta property="article:tag" content="sonification">
+  <meta property="article:tag" content="animation">
+  
+  
+  <meta property="article:published_time" content="2020-12-10T00:00:00Z">
+  <meta property="article:modified_time" content="2020-12-10T00:00:00Z">
 
 
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="Hydrology basics, episode 1: streamflow, precipitation and …">
 
 <meta name="twitter:description" content="">
 
@@ -88,10 +100,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logoWithText.png" alt="Categories logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.png" alt="Categories logo" class="visible-xs visible-sm" />
+                      <img src="/img/logoWithText.png" alt="Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories - go to homepage</span>
+                    <span class="sr-only">Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -128,11 +140,13 @@
                   
 
                   
-
+                    
                   
 
                   
-                  <li class="dropdown ">
+
+                  
+                  <li class="dropdown active">
                     <a href="/blog/">Blog</a>
                   </li>
                   
@@ -223,7 +237,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration</h1>
             </div>
         </div>
     </div>
@@ -232,23 +246,103 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              10 December 2020
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>How does water end up flowing in rivers? As schematized below, it is the result of processes that have taken place in the <a href="https://en.wikipedia.org/wiki/Drainage_basin">river basin</a>, also known as a <strong>catchment</strong> and delineated by a red line in the figure.</p>
+<p>
+</p>
+<p><img src="/img/CatchmentWaterBalance.png" /></p>
+<p>
+</p>
+<p>For a given river section, <a href="https://www.usgs.gov/special-topic/water-science-school/science/streamflow-and-water-cycle">streamflow</a> originates from <a href="https://www.usgs.gov/special-topic/water-science-school/science/precipitation-and-water-cycle">precipitation</a> that fell into the corresponding catchment. Snow stays where it lands until temperature is warm enough to melt it. From there, water originating from either melted snow or rain moves downward to the river through many possible paths. For instance, it may infiltrate the soil and take a slow underground trip. Alternatively, it may quickly run off a rocky or soaked surface. Part of this water never makes it to the river, and goes back to the atmosphere by <a href="https://www.usgs.gov/special-topic/water-science-school/science/evaporation-and-water-cycle">evaporation</a> (from the soil or from a lake for instance) and <a href="https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle">transpiration</a> (from the vegetation). The sum of the two processes is called <strong>evapotranspiration</strong>.</p>
+<div id="sounds-from-the-catchment" class="section level1">
+<h1>Sounds from the catchment</h1>
+<p>In summary, there is basically <strong>one way in</strong> (precipitation) and <strong>two ways out</strong> (streamflow and evapotranspiration) of the catchment. This post explores the daily time series corresponding to these three key variables for the <a href="https://en.wikipedia.org/wiki/Ard%C3%A8che_(river)">Ardèche</a> river at <a href="https://www.geoportail.gouv.fr/carte?c=4.116443038350031,44.46652662602236&amp;z=9&amp;l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&amp;l1=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&amp;l2=ELEVATION.SLOPES::GEOPORTAIL:OGC:WMTS(0.52)&amp;l3=HYDROGRAPHY.HYDROGRAPHY::GEOPORTAIL:OGC:WMTS(1)&amp;d4=3035764(1)&amp;permalink=yes">Sauze</a> (France, catchment area: 2258 km²).</p>
+<p>The <a href="/blog/sonification-intro/">sonified</a> animation below uses the technique of <a href="/blog/sonification-pitch-volume-mapping/">parameter mapping</a>:</p>
+<ul>
+<li>Precipitation controls the rhythm section (vibraphone, drum kick and bass).</li>
+<li>Streamflow controls an electric guitar. It is expressed in millimeters (mm) to make comparisons with precipitation easier. The value in mm can be interpreted as the thickness of the layer that would result from collecting all the daily streamflow and spreading it evenly across the whole catchment.</li>
+<li><a href="https://en.wikipedia.org/wiki/Potential_evaporation">Potential evapotranspiration</a> controls an electric piano. It is also expressed in mm, with the same interpretation as for streamflow.</li>
+</ul>
+<p>Weeks are highlighted using 7-note patterns that can be heard during the introduction. The 10-second introduction corresponds to 8 weeks of data.</p>
+<p>
+</p>
+<iframe src="https://player.vimeo.com/video/481648928" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+<p>Precipitation and streamflow look similar but the latter is roughly twice as small and looks a little smoother. This is often referred to as the filtering role of the catchment when transforming precipitation into streamflow. The guitar always seems to be late with respect to the bass and the vibraphone, reflecting the time needed for precipitation to induce a streamflow response.</p>
+<p>Potential evapotranspiration, on the other hand, looks totally different from precipitation and streamflow: the values are much smaller (only a couple of mm at most), but they are less erratically distributed during the year. As suggested by the piano, it is the dominant process during the summer months but it becomes less prominent during winter.</p>
+</div>
+<div id="the-tricky-water-balance-in-a-catchment" class="section level1">
+<h1>The tricky water balance in a catchment</h1>
+<p>In the long term, the amount of water entering and exiting the catchment should add up. Keeping track of this is called studying the catchment <a href="https://en.wikipedia.org/wiki/Water_balance">water balance</a>.</p>
+<p>Unfortunately, streamflow, precipitation and evapotranspiration are not always sufficient for this purpose, because catchments are not perfectly closed systems as implied by the simplified description above. In particular, water can be exchanged between catchments. Such a transfer of water may be generated artificially as part of a water management strategy, but it may also occur naturally due to some underground geological feature resulting in one catchment leaking into another.</p>
+<p>In addition, none of the three times series in the animation are direct measurements, which induces all sorts of uncertainties:</p>
+<ul>
+<li>The precipitation time series corresponds to the average precipitation over the whole catchment. It is estimated using a relatively small number of raingauges which represent a very small fraction of the catchment area.</li>
+<li>The streamflow time series is estimated from the measurement of the water height in the river. This <a href="https://www.usgs.gov/special-topic/water-science-school/science/how-streamflow-measured">transformation</a> is not straightforward.</li>
+<li>The potential evapotranspiration time series is not an estimation of evapotranspiration itself, but rather an estimation of its maximum possible value: it is the amount of water that would be returned to the atmosphere if this water was available in soil, plants, lakes, etc. But the actual evapotranspiration might be much lower than the potential one if there is no much water left at the surface to be evaporated.</li>
+</ul>
+<p>Studying the catchment water balance without precisely measuring what comes in and what goes out makes it both challenging and interesting!</p>
+<hr />
+<p><strong>Authors</strong>: Ben (figure, sonification, writing) &amp; Chloe (animation)</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/hydrology-basics-1">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
                         
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -386,6 +480,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>

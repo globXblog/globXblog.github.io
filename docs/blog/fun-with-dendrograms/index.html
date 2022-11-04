@@ -7,11 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories</title>
-<meta name="author" content="" />
+<title>Fun with dendrograms</title>
+<meta name="author" content="Chloe" />
 
 
 
+
+<meta name="keywords" content="animation, Australia, clustering">
 
 
 <meta name="description" content="">
@@ -61,13 +63,24 @@
 
 
 
-<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+<meta property="og:updated_time" content="2020-07-20T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="just fun!">
+  <meta property="article:tag" content="animation">
+  <meta property="article:tag" content="Australia">
+  <meta property="article:tag" content="clustering">
+  
+  
+  <meta property="article:published_time" content="2020-07-20T00:00:00Z">
+  <meta property="article:modified_time" content="2020-07-20T00:00:00Z">
 
 
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="Fun with dendrograms">
 
 <meta name="twitter:description" content="">
 
@@ -88,10 +101,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logoWithText.png" alt="Categories logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.png" alt="Categories logo" class="visible-xs visible-sm" />
+                      <img src="/img/logoWithText.png" alt="Fun with dendrograms logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="Fun with dendrograms logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories - go to homepage</span>
+                    <span class="sr-only">Fun with dendrograms - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -128,11 +141,13 @@
                   
 
                   
-
+                    
                   
 
                   
-                  <li class="dropdown ">
+
+                  
+                  <li class="dropdown active">
                     <a href="/blog/">Blog</a>
                   </li>
                   
@@ -223,7 +238,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>Fun with dendrograms</h1>
             </div>
         </div>
     </div>
@@ -232,23 +247,100 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              20 July 2020
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:</p>
+<ul>
+<li>the <strong>leaves</strong> represent the objects of the dataset;</li>
+<li>the <strong>branches</strong> link similar leaves according to a given criterion.</li>
+</ul>
+<p>Below are three animated dendrograms based on <a href="http://www.bom.gov.au/water/hrs/">daily runoff data</a> from the Australian reference dataset provided by the Bureau of Meteorology. They serve no purpose but to play with the dendrogram object since results are already discussed in the post about <a href="/blog/australian-hydrologic-regimes/">flow seasonality in Australia</a>.</p>
+<div id="linear-dendrogram" class="section level1">
+<h1>Linear dendrogram</h1>
+<p>The most standard representation of a dendrogram is to align its leaves at the bottom of the plot. Here, leaves are streamflow stations and branches link stations with similar flow seasonality. The linear dendrogram is successively cut into 1, 2, 3 or 4 groups following the dotted line. The point <strong>colour</strong> corresponds to one particular group.</p>
+<p>
+</p>
+<p><img src="/img/LinearDendrogram1to4Groups195stations.gif" /></p>
+<p>
+</p>
+</div>
+<div id="circular-dendrogram" class="section level1">
+<h1>Circular dendrogram</h1>
+<p>Another way to draw a dendrogram is to connect the two ends of the linear dendrogram baseline. The leaves are now forming a circle all around the branches. Here, a new information is added: the point <strong>size</strong> represents the annual quantity of water.</p>
+<p>
+</p>
+<p><img src="/img/CircularDendrogram1to3Groups195stations.gif" /></p>
+<p>
+</p>
+<p>What does it look like when the dendrogram goes from linear to circular?</p>
+</div>
+<div id="bending-a-dendrogram" class="section level1">
+<h1>Bending a dendrogram</h1>
+<p>The 4-group linear dendrogram baseline is gradually bent to form a full circle ultimately.</p>
+<p>
+</p>
+<p><img src="/img/LinearToCircularDendrogram4Groups195stations.gif" /></p>
+<p>
+</p>
+<p>In the same way as colour and size represent station properties, the bending angle could be used to represent some property of the whole dataset – for instance the proportion of missing data. This may be explored in future posts.</p>
+<hr />
+<p><strong>Author</strong>: Chloe</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/fun-with-dendrograms">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
                         
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -386,6 +478,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>

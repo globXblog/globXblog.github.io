@@ -7,11 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories</title>
-<meta name="author" content="" />
+<title>Finding hidden patterns in the data using principal components analysis</title>
+<meta name="author" content="Ben" />
 
 
 
+
+<meta name="keywords" content="sonification, animation, France, statistics">
 
 
 <meta name="description" content="">
@@ -61,13 +63,25 @@
 
 
 
-<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+<meta property="og:updated_time" content="2021-04-11T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="Exploring data">
+  <meta property="article:tag" content="sonification">
+  <meta property="article:tag" content="animation">
+  <meta property="article:tag" content="France">
+  <meta property="article:tag" content="statistics">
+  
+  
+  <meta property="article:published_time" content="2021-04-11T00:00:00Z">
+  <meta property="article:modified_time" content="2021-04-11T00:00:00Z">
 
 
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="Finding hidden patterns in the data using principal components …">
 
 <meta name="twitter:description" content="">
 
@@ -88,10 +102,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logoWithText.png" alt="Categories logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.png" alt="Categories logo" class="visible-xs visible-sm" />
+                      <img src="/img/logoWithText.png" alt="Finding hidden patterns in the data using principal components analysis logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="Finding hidden patterns in the data using principal components analysis logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories - go to homepage</span>
+                    <span class="sr-only">Finding hidden patterns in the data using principal components analysis - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -128,11 +142,13 @@
                   
 
                   
-
+                    
                   
 
                   
-                  <li class="dropdown ">
+
+                  
+                  <li class="dropdown active">
                     <a href="/blog/">Blog</a>
                   </li>
                   
@@ -223,7 +239,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>Finding hidden patterns in the data using principal components analysis</h1>
             </div>
         </div>
     </div>
@@ -232,23 +248,103 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              11 April 2021
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows <strong>monthly streamflows</strong> at 207 sites in France for the period 1969-2014. Original data have been <a href="https://geostatisticslessons.com/lessons/normalscore">transformed</a> to make the time series more comparable between sites. A value close to <strong>zero</strong> means streamflow is close to the <strong>median flow</strong> at this site. A large <strong>positive</strong> value means streamflow is <strong>high</strong> for this particular site, and inversely for a negative value.</p>
+<p>
+</p>
+<p><img src="/img/France207_TransformedStreamflows.png" /></p>
+<p>
+</p>
+<p>The figure is difficult to interpret due to the high number of entangled lines (one line per site). However, many sites seem to follow a similar temporal pattern.</p>
+<div id="uncovering-hidden-patterns" class="section level1">
+<h1>Uncovering hidden patterns</h1>
+<p>This post illustrates <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">principal component analysis</a> (PCA), a statistical technique to reveal one or more patterns hidden in the data. The 207 observed time series are summarised in just <strong>a few synthetic ones</strong>, called principal components, that preserve as much information as possible. Each component comes with a set of effects at all sites, as shown below for the first two principal components. At a given site, a large positive effect indicates that the time series tends to closely follow the component. A large negative effect means the time series tends to follow the <em>opposite</em> of the component. An effect close to zero means the time series is not affected by the component at all. Note that the precise values taken by the component and its effects do not really matter. What is important here are the spatial and the temporal patterns.</p>
+<p>
+</p>
+<p><img src="/img/France207_PC1MapAndGraph.png" /></p>
+<p>
+</p>
+<p>The first component shows a strong seasonality which affects most sites in France. The second principal component highlights the distinct hydrologic behavior of sites in the northern and the southern parts of the country.</p>
+<p>In summary, PCA collapses 207 entangled lines into just a few principal components. The relationship between the components, their effects and the original time series is illustrated in the figure below. The first component (in black) is superimposed on the time series (in light grey). The time series corresponding to sites having the 20 strongest effects are highlighted in a darker shade of grey, and indeed they look very similar to the component. On the contrary, the time series coming from the 20 sites with weakest effects (bottom panel) look dissimilar to the component.</p>
+<p>
+</p>
+<p><img src="/img/France207_PC1_highestAndLowest.png" /></p>
+<p>
+</p>
+</div>
+<div id="make-my-funk-the-pc-funk" class="section level1">
+<h1><a href="https://youtu.be/x9fNIrpkEiE?t=1190">Make my funk the PC funk</a></h1>
+<p>Another way to interpret the results of PCA is to visualise the original dataset while listening to the components. In the <a href="/glob/sonification-intro/">sonified</a> animation below, the map on the left shows the original data while the time series corresponding to the first two components are shown on the right. The first component controls the pitch and volume of an electric organ. The second component similarly controls a piano.</p>
+<p>
+</p>
+<iframe src="https://player.vimeo.com/video/532773848" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+<p>The role played by the first component can be heard quite clearly: high-pitched organ notes correspond to drought episodes across a large part of the country, lower notes correspond to particularly wet months. While more difficult to interpret, the role of the second component can also be heard by focusing on the piano notes and watching the southeastern corner of the country.</p>
+</div>
+<div id="moving-beyond-principal-components-analysis" class="section level1">
+<h1>Moving beyond Principal Components Analysis</h1>
+<p>PCA is a very general method that can be applied to a wide variety of problems. It is commonly used as a preliminary tool to explore and interpret large datasets (not necessarily space-time datasets such as here). However, it is not built to answer questions framed in terms of probabilities. For instance, a national water agency might want to know the probability of having a drought over more than 75% of the country, as such large-scale events may have negative consequences for irrigation, drinking water, etc. PCA cannot directly estimate this probability because it is lacking an explicit <a href="https://en.wikipedia.org/wiki/Statistical_model">statistical model</a>. <a href="https://stats.stackexchange.com/questions/203087">Probabilistic versions of PCA</a> have been developed to remedy this. They also offer additional benefits such as a better handling of missing data, the ability to quantify uncertainties and more. We are developing such probabilistic models as part of the <a href="/hegs">HEGS project</a>.</p>
+<hr />
+<p><strong>Authors</strong>: Ben (sonification, writing) &amp; Chloe (figures, animation, writing)</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/pca">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
                         
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -386,6 +482,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>

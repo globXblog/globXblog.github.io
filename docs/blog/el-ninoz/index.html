@@ -7,11 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Categories</title>
-<meta name="author" content="" />
+<title>El NiñOz</title>
+<meta name="author" content="Ben" />
 
 
 
+
+<meta name="keywords" content="sonification, animation, Australia">
 
 
 <meta name="description" content="">
@@ -61,13 +63,24 @@
 
 
 
-<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+<meta property="og:updated_time" content="2020-08-26T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="Exploring data">
+  <meta property="article:tag" content="sonification">
+  <meta property="article:tag" content="animation">
+  <meta property="article:tag" content="Australia">
+  
+  
+  <meta property="article:published_time" content="2020-08-26T00:00:00Z">
+  <meta property="article:modified_time" content="2020-08-26T00:00:00Z">
 
 
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="El NiñOz">
 
 <meta name="twitter:description" content="">
 
@@ -88,10 +101,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logoWithText.png" alt="Categories logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.png" alt="Categories logo" class="visible-xs visible-sm" />
+                      <img src="/img/logoWithText.png" alt="El NiñOz logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="El NiñOz logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Categories - go to homepage</span>
+                    <span class="sr-only">El NiñOz - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -128,11 +141,13 @@
                   
 
                   
-
+                    
                   
 
                   
-                  <li class="dropdown ">
+
+                  
+                  <li class="dropdown active">
                     <a href="/blog/">Blog</a>
                   </li>
                   
@@ -223,7 +238,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Categories</h1>
+                <h1>El NiñOz</h1>
             </div>
         </div>
     </div>
@@ -232,23 +247,92 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              26 August 2020
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm. These are known as <strong>El Niño</strong> episodes. Sometimes the opposite phenomenon occurs, with extended periods of colder-than-usual temperatures, known as <strong>La Niña</strong> episodes. This <a href="https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation">oscillation</a> between cold and warm episodes has wide-ranging effects on the climate of the Earth.</p>
+<div id="el-niño-and-la-niña-in-australia" class="section level1">
+<h1>El Niño and La Niña in Australia</h1>
+<p>In Australia, La Niña episodes are typically associated with large rainfall on the Eastern part of the country, as described in more details by the <a href="http://www.bom.gov.au/climate/about/australian-climate-influences.shtml?bookmark=enso">Bureau of Meteorology</a>. What does this association look like exactly? and what does it <em>sound</em> like?</p>
+<p>This can be explored using two datasets:</p>
+<ol style="list-style-type: decimal">
+<li>Monthly rainfall <a href="http://www.bom.gov.au/web01/ncc/www/cli_chg/timeseries/rain/allmonths/eaus/latest.txt">data</a> in <a href="http://www.bom.gov.au/climate/change/about/rain_timeseries.shtml">Eastern Australia</a>.</li>
+<li>Monthly values from the Southern Oscillation Index (<a href="http://www.bom.gov.au/climate/current/soihtm1.shtml">SOI</a>) with high values denoting La Niña episodes, and low values El Niño episodes.</li>
+</ol>
+<p>The video below shows the <a href="/blog/sonification-intro/">sonification</a> of this dataset, using the technique of <a href="https://globxblog.inrae.fr/sonification-pitch-volume-mapping/">parameter mapping</a>. More precisely, the animation/sonification is based on the following elements:</p>
+<ul>
+<li>Opposite SOI values (-1*SOI) control the pitch and volume of a piano. El Niño episodes can therefore clearly be identified as parts with high-pitched piano notes.</li>
+<li>The same -1*SOI values are averaged at the seasonal scale (leading to 4 values per year, instead of 12). This seasonal series is used to control a bass, drums and cymbals, so that La Niña episodes will be low and loud!</li>
+<li>Rainfall values control the volume and pitch of an organ and a guitar, so only very wet months will be clearly heard.</li>
+</ul>
+<p>A few other elements (a drum pattern, saturation and reverberation) are added to improve the way the result sounds, but they are not data-driven.</p>
+<p>
+</p>
+<iframe src="https://player.vimeo.com/video/440621263" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+</div>
+<div id="a-few-thoughts" class="section level1">
+<h1>A few thoughts</h1>
+<p>Overall, the association between La Niña episodes and high rainfall can be seen and heard quite clearly. However the video also reveals that this association is not systematic: for instance, the La Niña of 1988-1989 did not resulted in particularly high rainfall. Conversely, rainfall was pretty high during the El Niño of 1940-1941. So while the El Niño / La Niña oscillation does influence the probability of seeing low/high rainfall, there remains some degree on randomness in this association. In addition, this oscillation is only one of <a href="http://www.bom.gov.au/watl/about-weather-and-climate/australian-climate-influences.shtml">several mechanisms</a> influencing the climate of Australia. So maybe these other <a href="https://youtu.be/GlJzwmkePMk">climate sheepdogs</a> played a role as well?</p>
+<hr />
+<p><strong>Author</strong>: Ben</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/el-ninoz">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
                         
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -386,6 +470,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>

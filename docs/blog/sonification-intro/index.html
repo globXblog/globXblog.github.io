@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en-au">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>A short introduction to data sonification</title>
+<meta name="author" content="Ben" />
+
+
+
+
+<meta name="keywords" content="sonification">
+
+
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.105.0">
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link href="/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/css/custom.css?1667560082" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="http://example.org/index.xml" type="application/rss+xml" title="globXblog">
+
+
+
+
+
+
+
+<meta property="og:updated_time" content="2022-03-24T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="techniques">
+  <meta property="article:tag" content="sonification">
+  
+  
+  <meta property="article:published_time" content="2020-04-26T00:00:00Z">
+  <meta property="article:modified_time" content="2022-03-24T00:00:00Z">
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="A short introduction to data sonification">
+
+<meta name="twitter:description" content="">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <img src="/img/logoWithText.png" alt="A short introduction to data sonification logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="A short introduction to data sonification logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">A short introduction to data sonification - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+                    
+                  
+
+                  
+
+                  
+                  <li class="dropdown active">
+                    <a href="/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hegs/">HEGS project</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="https://github.com/globXblog/scripts">Codes and data</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/about/">About</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/index.xml">rss</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>A short introduction to data sonification</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              26 April 2020
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<div id="what-is-data-sonification" class="section level1">
+<h1>What is data sonification?</h1>
+<p><a href="https://en.wikipedia.org/wiki/Sonification">Sonification</a> refers to the transformation of data into sound, using some algorithmic process. Here are three examples worth a thousand words:</p>
+<iframe src="https://www.youtube.com/embed/3PJxUPvz9Oo" width="275" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+<iframe src="https://www.youtube.com/embed/-V2Uc8Kax_g" width="275" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+<iframe src="https://www.youtube.com/embed/ANYxkwvb8pc" width="275" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+<p>These videos illustrate three common sonification techniques we will explore in future posts of this blog:</p>
+<ol style="list-style-type: decimal">
+<li>In the first earthquake video, the seismic signal is interpreted as a sound waveform and is just played; this technique is known as <strong>audification</strong>.</li>
+<li>In the second video, the temperature in one region is transformed into the pitch of the note played by one instrument; this is known as <strong>pitch mapping</strong>. This is a particular case of a more general approach known as <strong>parameter mapping</strong>, where data values can be mapped into some other attribute of the notes, for instance their volume or their duration.</li>
+<li>In the third video, a sound is played every time an asteroid impact occurs: this is known as <strong>sequencing</strong> a sound.</li>
+</ol>
+<p>Those are only three possible ways to transform data into sounds, but many more have been developed over the years. Sonification is indeed not something new, as you can see from this <a href="https://en.wikipedia.org/wiki/Sonification#History">short history</a>. It even has its <a href="https://sonification.de/handbook">handbook</a>! Check it out if you want to learn more about sonification techniques and principles.</p>
+</div>
+<div id="why-sonification" class="section level1">
+<h1>Why sonification?</h1>
+<p>The videos above explore datasets in original and exciting ways, and the sonification process looks like a fun and interesting endeavor. These are already very good reasons to give it a try in my opinion! But there might be other advantages to be gained too, beyond the mere interest of the process.</p>
+<div id="sound-and-image-may-carry-different-information" class="section level2">
+<h2>Sound and image may carry different information</h2>
+<p>Data sonification may nicely complements data visualization. For instance, the figure below shows a standard plot of a time series containing 40 years of hourly data.</p>
+<h4 align="center">
+Look at the series …
+</h4>
+<p><img src="/img/hourlySeries.jpg" /></p>
+<p>This time series is now transformed into a 7-second sound by direct audification.</p>
+<h4 align="center">
+… then listen to it
+</h4>
+<p align="center">
+<audio controls>
+<source src="/sound/hourlySeries.mp3" type="audio/mp3" />
+</audio>
+</p>
+<p>For this particular time series, the properties that can be seen can’t be heard and those that can be heard can’t be seen:</p>
+<ul>
+<li>The plot highlights a strong annual seasonality and an apparent increasing trend. None of these properties can be heard. Some additional variability exists on top of that, but at this scale it just appears as some noisy scatter.</li>
+<li>The decreasing pitch of the sound corresponds to a decrease in the frequency of the ‘diurnal’ cycle (from 1 cycle every 24 hours to 1 every 29 hours); moreover, halfway through the sound, the noise is suddenly changing. None of these properties can be seen on the plot.</li>
+</ul>
+<p>This example is admittedly a bit far-fetched because it was generated precisely to illustrate the points made above (the R code is <a href="https://github.com/globXblog/scripts/blob/main/src/sonification-intro/ViewVsListen.R">here</a>). Still, it illustrates the complementary strengths of eyes and ears: here, the former reveal the low-frequency properties of the series, the latter the high-frequency ones. Of course this does not imply that viewing high frequencies or hearing low frequencies is inherently impossible (it would just require some further processing), only that the two approaches reveal distinct properties when applied to the same raw time series.</p>
+</div>
+<div id="interest-for-multi-variable-andor-spatial-datasets" class="section level2">
+<h2>Interest for multi-variable and/or spatial datasets</h2>
+<p>The ear is naturally capable of handling multiple sound sources. Sonification hence has potential to explore multi-variable and/or spatial datasets (for instance temperature + precipitation + streamflow at many locations), as illustrated by the string quartet video at the beginning of this post. Visualization can also be added on top of sonification to provide additional sensory channels to interpret multiple data. For instance, the image below, taken from Brian Foo’s <a href="https://harmony.brianfoo.com">Harmony of the Sphere</a>, shows various physical and socio-economic variables at one particular latitude. A click on the image links to the original website, where one can not only hear these variables, but also interactively change the latitude and listen to the resulting sound change.</p>
+<p align="center">
+<a href="https://harmony.brianfoo.com"><img src="/img/harmonyOfTheSphere.jpg" /></a>
+<a href="https://harmony.brianfoo.com" class="uri">https://harmony.brianfoo.com</a>
+</p>
+</div>
+<div id="making-music" class="section level2">
+<h2>Making music</h2>
+<p>Finally, all the points above were considering sonification as a way to interpret data, but it is possible to reverse the perspective and to consider data as a way to create sounds and music. The example below is a composition by Markus J. Buehler using sounds generated from proteins. A sonification endeavor can hence be viewed as some sort of constrained composition exercise, with data providing the basic sounds, melody or rhythm that need to be further orchestrated to create a “nice-sounding” musical piece. It is arrangement rather than composition in a sense, the composer being the dataset itself! Transforming data not merely into sound but into music is a powerful way to add emotional content to the data.</p>
+<div>
+<iframe width="800" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644517855&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true">
+</iframe>
+</div>
+</div>
+</div>
+<div id="wrapping-up" class="section level1">
+<h1>Wrapping up</h1>
+<p>Sonification is in many ways similar to data visualization - it is very much visualizing with the ears rather than with the eyes. But while visualization is ubiquitous in any field making heavy use of data, and is even considered as an integral part of data analysis, sonification is still very incidental in comparison. Aren’t we missing something by just <em>looking</em> at the data, and not <em>listening</em> to it?
+One of the objective of this blog is to explore the potential of sonification in the context of hydroclimatic data, and in particular floods and extreme precipitations. We’ll start by applying basic techniques to simple datasets before progressively moving towards more complex cases, reporting on both failures and successes along the way.</p>
+<div id="going-further" class="section level2">
+<h2>Going further</h2>
+<p>While we are just at the beginning of the road in this blog, others have already achieved awesome outcomes. Here are a few examples:</p>
+<ul>
+<li>The works by <a href="https://brianfoo.com">Brian Foo</a>, including a full album <a href="https://datadrivendj.com">Data-Driven DJ</a> and more interactive experiences such as <a href="https://eclipticalis.com">Music Eclipticalis</a>.</li>
+<li>Alexander Chen’s <a href="http://www.chenalexander.com/Mta-me">string instrument based on the New-York City subway</a>.</li>
+<li>“Space sounds” on <a href="https://soundcloud.com/nasa/popular-tracks">NASA</a>’s and <a href="https://soundcloud.com/esa/popular-tracks">ESA</a>’s soundclouds.</li>
+<li>Still with space data, the many projects of <a href="http://www.system-sounds.com">SYSTEM Sounds</a>.</li>
+<li>Markus J. Buehler’s <a href="https://soundcloud.com/user-275864738">materiomusic</a>.</li>
+<li><a href="https://www.nelsonguda.com/project/threshold">Threshold</a>, a sonification of climate data by Nelson Guda.</li>
+<li><a href="https://www.youtube.com/playlist?list=PL27v682n8E2Sla8U7jJph9w9M6nYln-W3">Earth System Model Music</a> by Lee de Mora.</li>
+</ul>
+</div>
+<div id="going-even-further" class="section level2">
+<h2>Going even further</h2>
+<p>And what about our other senses? After all we have five, so why not touchify, odorify or tastify data as well? Imagine for instance how Boris Vian’s <a href="https://www.youtube.com/watch?v=5bdX5i0nAWw">Pianocoktail</a> could be used to transform data into aromatic and tasty drinks. But we won’t go into this in this blog, it’s a bit difficult to convey touch, smell and taste through a computer (well, at the time of writing of this post at least… who knows what future computers and smartphones have in store for us!).</p>
+<hr />
+<p><strong>Author</strong>: Ben</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/sonification-intro">GitHub</a></p>
+<hr />
+</div>
+</div>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="http://example.org/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/exploring-data">EXPLORING-DATA (8)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/hydrology-basics">HYDROLOGY-BASICS (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/just-fun">JUST-FUN (4)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/techniques">TECHNIQUES (3)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/tags/animation"><i class="fas fa-tags"></i> animation</a>
+            </li>
+            
+            <li >
+                <a href="/tags/australia"><i class="fas fa-tags"></i> australia</a>
+            </li>
+            
+            <li >
+                <a href="/tags/clustering"><i class="fas fa-tags"></i> clustering</a>
+            </li>
+            
+            <li >
+                <a href="/tags/france"><i class="fas fa-tags"></i> france</a>
+            </li>
+            
+            <li >
+                <a href="/tags/interactive"><i class="fas fa-tags"></i> interactive</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sequencing"><i class="fas fa-tags"></i> sequencing</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sonification"><i class="fas fa-tags"></i> sonification</a>
+            </li>
+            
+            <li >
+                <a href="/tags/statistics"><i class="fas fa-tags"></i> statistics</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+  <div class="container">
+    
+    <div class="col-xs-4 left">
+        <p> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No <a href="https://cordis.europa.eu/project/id/835496">835496</a> </p>
+    </div>
+  
+    <div class="col-xs-8 right">
+      <p>  <a href="https://ec.europa.eu/info/index_en"><img src="/img/EUflag.jpg" alt="EU Flag" height="100"> </a>
+      <a href="https://www.inrae.fr/en"><img src="/img/logoINRAE.png" alt="INRAE" height="100"> </a> <a href="https://www.adelaide.edu.au"><img src="/img/logoUoA.png" alt="UoA" height="100"> </a> </p>    </div>
+  </div>
+    
+</footer>
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

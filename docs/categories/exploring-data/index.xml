@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>exploring data on globXblog</title>
+    <link>http://example.org/categories/exploring-data/</link>
+    <description>Recent content in exploring data on globXblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/exploring-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A postcard from Antarctica</title>
+      <link>http://example.org/blog/antarctica/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/antarctica/</guid>
+      <description>Some time ago we’ve been lucky enough to receive the postcard below from the Mc Murdo Dry Valleys, in Antarctica (thank you so much Kaelin!</description>
+    </item>
+    
+    <item>
+      <title>Revealing Hidden Climate Indices</title>
+      <link>http://example.org/blog/hci/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/hci/</guid>
+      <description>In a previous post, we illustrated a widely used method called principal component analysis (PCA). This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called principal components.</description>
+    </item>
+    
+    <item>
+      <title>Finding hidden patterns in the data using principal components analysis</title>
+      <link>http://example.org/blog/pca/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/pca/</guid>
+      <description>In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows monthly streamflows at 207 sites in France for the period 1969-2014.</description>
+    </item>
+    
+    <item>
+      <title>An interactive app to explore world floods</title>
+      <link>http://example.org/blog/world-floods/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/world-floods/</guid>
+      <description>The Global Streamflow Indices and Metadata Archive describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the HEGS project to study floods at the global scale.</description>
+    </item>
+    
+    <item>
+      <title>Transforming a distance matrix into a map</title>
+      <link>http://example.org/blog/transforming-a-distance-matrix-into-a-map/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/transforming-a-distance-matrix-into-a-map/</guid>
+      <description>The map in the figure below shows the location of 195 hydrologic stations, which can be used to explore the hydrologic regimes of Australian rivers.</description>
+    </item>
+    
+    <item>
+      <title>El NiñOz</title>
+      <link>http://example.org/blog/el-ninoz/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/el-ninoz/</guid>
+      <description>The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm.</description>
+    </item>
+    
+    <item>
+      <title>How Australian rivers can be grouped into 4 main hydrologic regimes</title>
+      <link>http://example.org/blog/australian-hydrologic-regimes/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/australian-hydrologic-regimes/</guid>
+      <description>Investigating the hydrologic regime of 195 rivers in Australia revealed three types of flow seasonality. At some stations, the wettest period occurs during one particular season (winter or summer), whereas at others, similar flows are observed all year round.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the hydrologic regime of 195 rivers in Australia</title>
+      <link>http://example.org/blog/australian-river-cruises/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/australian-river-cruises/</guid>
+      <description>Plotting hydrologic regimes Most hydrologic studies start by determining the average quantity of water in rivers and how it is distributed throughout the year.</description>
+    </item>
+    
+  </channel>
+</rss>

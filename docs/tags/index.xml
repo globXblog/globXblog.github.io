@@ -5,6 +5,79 @@
     <link>http://example.org/tags/</link>
     <description>Recent content in Tags on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language>
+    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>animation</title>
+      <link>http://example.org/tags/animation/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sonification</title>
+      <link>http://example.org/tags/sonification/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/sonification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Australia</title>
+      <link>http://example.org/tags/australia/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/australia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>http://example.org/tags/statistics/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>France</title>
+      <link>http://example.org/tags/france/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/france/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interactive</title>
+      <link>http://example.org/tags/interactive/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sequencing</title>
+      <link>http://example.org/tags/sequencing/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clustering</title>
+      <link>http://example.org/tags/clustering/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/clustering/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
