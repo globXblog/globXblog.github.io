@@ -5,3 +5,6 @@
 .hugo_build.lock
 themes/
 resources/
+static/img/
+static/sound/
+docs/**/*.Rmd
