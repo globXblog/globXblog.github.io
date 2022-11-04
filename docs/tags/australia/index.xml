@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Australia on globXblog</title>
-    <link>http://example.org/tags/australia/</link>
+    <link>https://globxblog.github.io/tags/australia/</link>
     <description>Recent content in Australia on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/australia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/australia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revealing Hidden Climate Indices</title>
-      <link>http://example.org/blog/hci/</link>
+      <link>https://globxblog.github.io/blog/hci/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/hci/</guid>
+      <guid>https://globxblog.github.io/blog/hci/</guid>
       <description>In a previous post, we illustrated a widely used method called principal component analysis (PCA). This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called principal components.</description>
     </item>
     
     <item>
       <title>Transforming a distance matrix into a map</title>
-      <link>http://example.org/blog/transforming-a-distance-matrix-into-a-map/</link>
+      <link>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/transforming-a-distance-matrix-into-a-map/</guid>
+      <guid>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</guid>
       <description>The map in the figure below shows the location of 195 hydrologic stations, which can be used to explore the hydrologic regimes of Australian rivers.</description>
     </item>
     
     <item>
       <title>El NiñOz</title>
-      <link>http://example.org/blog/el-ninoz/</link>
+      <link>https://globxblog.github.io/blog/el-ninoz/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/el-ninoz/</guid>
+      <guid>https://globxblog.github.io/blog/el-ninoz/</guid>
       <description>The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm.</description>
     </item>
     
     <item>
       <title>Fun with dendrograms</title>
-      <link>http://example.org/blog/fun-with-dendrograms/</link>
+      <link>https://globxblog.github.io/blog/fun-with-dendrograms/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/fun-with-dendrograms/</guid>
+      <guid>https://globxblog.github.io/blog/fun-with-dendrograms/</guid>
       <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:
 the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
     </item>
     
     <item>
       <title>How Australian rivers can be grouped into 4 main hydrologic regimes</title>
-      <link>http://example.org/blog/australian-hydrologic-regimes/</link>
+      <link>https://globxblog.github.io/blog/australian-hydrologic-regimes/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/australian-hydrologic-regimes/</guid>
+      <guid>https://globxblog.github.io/blog/australian-hydrologic-regimes/</guid>
       <description>Investigating the hydrologic regime of 195 rivers in Australia revealed three types of flow seasonality. At some stations, the wettest period occurs during one particular season (winter or summer), whereas at others, similar flows are observed all year round.</description>
     </item>
     
     <item>
       <title>Exploring the hydrologic regime of 195 rivers in Australia</title>
-      <link>http://example.org/blog/australian-river-cruises/</link>
+      <link>https://globxblog.github.io/blog/australian-river-cruises/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/australian-river-cruises/</guid>
+      <guid>https://globxblog.github.io/blog/australian-river-cruises/</guid>
       <description>Plotting hydrologic regimes Most hydrologic studies start by determining the average quantity of water in rivers and how it is distributed throughout the year.</description>
     </item>
     

@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sonification on globXblog</title>
-    <link>http://example.org/tags/sonification/</link>
+    <link>https://globxblog.github.io/tags/sonification/</link>
     <description>Recent content in sonification on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/sonification/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/sonification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A postcard from Antarctica</title>
-      <link>http://example.org/blog/antarctica/</link>
+      <link>https://globxblog.github.io/blog/antarctica/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/antarctica/</guid>
+      <guid>https://globxblog.github.io/blog/antarctica/</guid>
       <description>Some time ago we’ve been lucky enough to receive the postcard below from the Mc Murdo Dry Valleys, in Antarctica (thank you so much Kaelin!</description>
     </item>
     
     <item>
       <title>Revealing Hidden Climate Indices</title>
-      <link>http://example.org/blog/hci/</link>
+      <link>https://globxblog.github.io/blog/hci/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/hci/</guid>
+      <guid>https://globxblog.github.io/blog/hci/</guid>
       <description>In a previous post, we illustrated a widely used method called principal component analysis (PCA). This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called principal components.</description>
     </item>
     
     <item>
       <title>Finding hidden patterns in the data using principal components analysis</title>
-      <link>http://example.org/blog/pca/</link>
+      <link>https://globxblog.github.io/blog/pca/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/pca/</guid>
+      <guid>https://globxblog.github.io/blog/pca/</guid>
       <description>In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows monthly streamflows at 207 sites in France for the period 1969-2014.</description>
     </item>
     
     <item>
       <title>About the logo</title>
-      <link>http://example.org/blog/about-the-logo/</link>
+      <link>https://globxblog.github.io/blog/about-the-logo/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/about-the-logo/</guid>
+      <guid>https://globxblog.github.io/blog/about-the-logo/</guid>
       <description>The globXblog logo is a colourful doughnut that mimics an equaliser, referring to the sonification and visualisation part of the blog. In its core, a stormy icon represents the hydrological part of the blog.</description>
     </item>
     
     <item>
       <title>Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration</title>
-      <link>http://example.org/blog/hydrology-basics-1/</link>
+      <link>https://globxblog.github.io/blog/hydrology-basics-1/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/hydrology-basics-1/</guid>
+      <guid>https://globxblog.github.io/blog/hydrology-basics-1/</guid>
       <description>How does water end up flowing in rivers? As schematized below, it is the result of processes that have taken place in the river basin, also known as a catchment and delineated by a red line in the figure.</description>
     </item>
     
     <item>
       <title>El NiñOz</title>
-      <link>http://example.org/blog/el-ninoz/</link>
+      <link>https://globxblog.github.io/blog/el-ninoz/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/el-ninoz/</guid>
+      <guid>https://globxblog.github.io/blog/el-ninoz/</guid>
       <description>The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm.</description>
     </item>
     
     <item>
       <title>Sonification techniques: sequencing</title>
-      <link>http://example.org/blog/sonification-sequencing/</link>
+      <link>https://globxblog.github.io/blog/sonification-sequencing/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/sonification-sequencing/</guid>
+      <guid>https://globxblog.github.io/blog/sonification-sequencing/</guid>
       <description>Sounds triggered by events The map below shows the main flood events of 2019, their duration and the size of the flood-affected area (for further discussion of this dataset, see the post Sonification techniques: mapping data to pitch and volume).</description>
     </item>
     
     <item>
       <title>Exploring the hydrologic regime of 195 rivers in Australia</title>
-      <link>http://example.org/blog/australian-river-cruises/</link>
+      <link>https://globxblog.github.io/blog/australian-river-cruises/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/australian-river-cruises/</guid>
+      <guid>https://globxblog.github.io/blog/australian-river-cruises/</guid>
       <description>Plotting hydrologic regimes Most hydrologic studies start by determining the average quantity of water in rivers and how it is distributed throughout the year.</description>
     </item>
     
     <item>
       <title>Sonification techniques: mapping data to pitch and volume</title>
-      <link>http://example.org/blog/sonification-pitch-volume-mapping/</link>
+      <link>https://globxblog.github.io/blog/sonification-pitch-volume-mapping/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/sonification-pitch-volume-mapping/</guid>
+      <guid>https://globxblog.github.io/blog/sonification-pitch-volume-mapping/</guid>
       <description>Mapping data to visual or auditory properties A common visualization technique is to use the color or size of symbols to represent data. The bubble map below shows an example.</description>
     </item>
     
     <item>
       <title>A short introduction to data sonification</title>
-      <link>http://example.org/blog/sonification-intro/</link>
+      <link>https://globxblog.github.io/blog/sonification-intro/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/sonification-intro/</guid>
+      <guid>https://globxblog.github.io/blog/sonification-intro/</guid>
       <description>What is data sonification? Sonification refers to the transformation of data into sound, using some algorithmic process. Here are three examples worth a thousand words:</description>
     </item>
     

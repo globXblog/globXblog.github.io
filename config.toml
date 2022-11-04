@@ -1,5 +1,5 @@
 theme = "hugo-universal-theme"
-baseURL = 'http://example.org/'
+baseURL = 'https://globxblog.github.io/'
 languageCode = 'en-au'
 title = 'globXblog'
 paginate = 9

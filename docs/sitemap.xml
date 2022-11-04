@@ -2,101 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/blog/antarctica/</loc>
+    <loc>https://globxblog.github.io/blog/antarctica/</loc>
     <lastmod>2022-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/animation/</loc>
+    <loc>https://globxblog.github.io/tags/animation/</loc>
     <lastmod>2022-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://globxblog.github.io/blog/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://globxblog.github.io/categories/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/exploring-data/</loc>
+    <loc>https://globxblog.github.io/categories/exploring-data/</loc>
     <lastmod>2022-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://globxblog.github.io/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/sonification/</loc>
+    <loc>https://globxblog.github.io/tags/sonification/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://globxblog.github.io/tags/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/australia/</loc>
+    <loc>https://globxblog.github.io/tags/australia/</loc>
     <lastmod>2021-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/hci/</loc>
+    <loc>https://globxblog.github.io/blog/hci/</loc>
     <lastmod>2021-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/statistics/</loc>
+    <loc>https://globxblog.github.io/tags/statistics/</loc>
     <lastmod>2021-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/pca/</loc>
+    <loc>https://globxblog.github.io/blog/pca/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/france/</loc>
+    <loc>https://globxblog.github.io/tags/france/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/world-floods/</loc>
+    <loc>https://globxblog.github.io/blog/world-floods/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/interactive/</loc>
+    <loc>https://globxblog.github.io/tags/interactive/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/scatterplot-transformer/</loc>
+    <loc>https://globxblog.github.io/blog/scatterplot-transformer/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/just-fun/</loc>
+    <loc>https://globxblog.github.io/categories/just-fun/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/about-the-logo/</loc>
+    <loc>https://globxblog.github.io/blog/about-the-logo/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/sequencing/</loc>
+    <loc>https://globxblog.github.io/tags/sequencing/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/hydrology-basics/</loc>
+    <loc>https://globxblog.github.io/categories/hydrology-basics/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/hydrology-basics-1/</loc>
+    <loc>https://globxblog.github.io/blog/hydrology-basics-1/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/transforming-a-distance-matrix-into-a-map/</loc>
+    <loc>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/el-ninoz/</loc>
+    <loc>https://globxblog.github.io/blog/el-ninoz/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/clustering/</loc>
+    <loc>https://globxblog.github.io/tags/clustering/</loc>
     <lastmod>2020-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/fun-with-dendrograms/</loc>
+    <loc>https://globxblog.github.io/blog/fun-with-dendrograms/</loc>
     <lastmod>2020-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/australian-hydrologic-regimes/</loc>
+    <loc>https://globxblog.github.io/blog/australian-hydrologic-regimes/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/sonification-sequencing/</loc>
+    <loc>https://globxblog.github.io/blog/sonification-sequencing/</loc>
     <lastmod>2020-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/techniques/</loc>
+    <loc>https://globxblog.github.io/categories/techniques/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/australian-river-cruises/</loc>
+    <loc>https://globxblog.github.io/blog/australian-river-cruises/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/sonification-pitch-volume-mapping/</loc>
+    <loc>https://globxblog.github.io/blog/sonification-pitch-volume-mapping/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/sonification-intro/</loc>
+    <loc>https://globxblog.github.io/blog/sonification-intro/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://globxblog.github.io/about/</loc>
   </url><url>
-    <loc>http://example.org/hegs/</loc>
+    <loc>https://globxblog.github.io/hegs/</loc>
   </url>
 </urlset>

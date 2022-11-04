@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sequencing on globXblog</title>
-    <link>http://example.org/tags/sequencing/</link>
+    <link>https://globxblog.github.io/tags/sequencing/</link>
     <description>Recent content in sequencing on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/sequencing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/sequencing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the logo</title>
-      <link>http://example.org/blog/about-the-logo/</link>
+      <link>https://globxblog.github.io/blog/about-the-logo/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/about-the-logo/</guid>
+      <guid>https://globxblog.github.io/blog/about-the-logo/</guid>
       <description>The globXblog logo is a colourful doughnut that mimics an equaliser, referring to the sonification and visualisation part of the blog. In its core, a stormy icon represents the hydrological part of the blog.</description>
     </item>
     
     <item>
       <title>Sonification techniques: sequencing</title>
-      <link>http://example.org/blog/sonification-sequencing/</link>
+      <link>https://globxblog.github.io/blog/sonification-sequencing/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/sonification-sequencing/</guid>
+      <guid>https://globxblog.github.io/blog/sonification-sequencing/</guid>
       <description>Sounds triggered by events The map below shows the main flood events of 2019, their duration and the size of the flood-affected area (for further discussion of this dataset, see the post Sonification techniques: mapping data to pitch and volume).</description>
     </item>
     

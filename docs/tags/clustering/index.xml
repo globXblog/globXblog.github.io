@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clustering on globXblog</title>
-    <link>http://example.org/tags/clustering/</link>
+    <link>https://globxblog.github.io/tags/clustering/</link>
     <description>Recent content in clustering on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fun with dendrograms</title>
-      <link>http://example.org/blog/fun-with-dendrograms/</link>
+      <link>https://globxblog.github.io/blog/fun-with-dendrograms/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/fun-with-dendrograms/</guid>
+      <guid>https://globxblog.github.io/blog/fun-with-dendrograms/</guid>
       <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:
 the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
     </item>
     
     <item>
       <title>How Australian rivers can be grouped into 4 main hydrologic regimes</title>
-      <link>http://example.org/blog/australian-hydrologic-regimes/</link>
+      <link>https://globxblog.github.io/blog/australian-hydrologic-regimes/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/australian-hydrologic-regimes/</guid>
+      <guid>https://globxblog.github.io/blog/australian-hydrologic-regimes/</guid>
       <description>Investigating the hydrologic regime of 195 rivers in Australia revealed three types of flow seasonality. At some stations, the wettest period occurs during one particular season (winter or summer), whereas at others, similar flows are observed all year round.</description>
     </item>
     
