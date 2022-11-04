@@ -1,0 +1,54 @@
+---
+slug: rhythm-of-flood-occurrences
+title: 'Hydrology basics, episode 2: the rhythm of flood occurrences'
+thumbnail_title: 'Hydrology basics, episode 2'
+thumbnail_subtitle: 'The rhythm of flood occurrences'
+thumbnail_vid: https://player.vimeo.com/video/653714131
+author: Ben
+date: '2022-11-04'
+categories: [Hydrology basics]
+tags: [sonification,animation,statistics,floods]
+toc: yes
+autoCollapseToc: yes
+---
+
+https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood
+
+https://fivethirtyeight.com/features/its-time-to-ditch-the-concept-of-100-year-floods/
+
+
+# The rhythm of flood occurrences 
+
+XXX
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/653714131" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+# Let's do the maths
+
+It is actually fairly easy to work out the maths hiding behind this plot. 
+
+Let's assume there was a 10-year flood last year, and let's count the number of years before we see another one (or worse).
+
+Waiting only one year means that the flood occurs on the first year, and as explained above this has probability 0.1.
+
+Waiting 2 years means that there is no occurrence on year 1 (this has probability 0.9), but there is one on year 2 (probability 0.1). The probability of having this particular sequence (no occurrence, then occurrence) is 0.9\*0.1=0.09. 
+
+Waiting 3 years means that there is no occurrence on year 1 (probability 0.9), no occurrence on year 2 (probability 0.9) but there is one on year 3 (probability 0.1). This gives 0.9\*0.9\*0.1=0.9<sup>2</sup>\*0.1=0.081.
+
+An so one and so forth... waiting 4 years gives 0.9<sup>3</sup>\*0.1, waiting *k* years gives 0.9<sup>*k*-1</sup>\*0.1
+
+https://theconversation.com/what-is-a-1-in-100-year-weather-event-and-why-do-they-keep-happening-so-often-157589
+
+---
+
+**Author**: Ben  
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/rhythm-of-flood-occurrences)
+
+---
+
+

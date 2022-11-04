@@ -7,7 +7,7 @@ thumbnail_img: /img/flood_occurences.png
 author: Chloe
 date: '2021-03-28'
 categories: [Exploring data]
-tags: [interactive]
+tags: [interactive,floods]
 toc: yes
 autoCollapseToc: yes
 ---
