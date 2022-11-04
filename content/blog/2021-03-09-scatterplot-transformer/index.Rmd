@@ -1,0 +1,33 @@
+---
+slug: scatterplot-transformer 
+title: Folding and bending data
+thumbnail_title: Scatterplot transformer
+thumbnail_subtitle: An interactive app to fold and bend data
+thumbnail_img: /img/scatterplot_transformer.png
+author: Chloe
+date: '2021-03-09'
+categories: [Just fun!]
+tags: [animation,interactive]
+toc: yes
+autoCollapseToc: yes
+---
+
+In the [fun with dendrograms](/blog/fun-with-dendrograms/) post, a linear dendrogram is gradually [bent into a full circle](/img/LinearToCircularDendrogram4Groups195stations.gif). This transformation isn’t specific to dendrograms and can be applied to any dataset. The [scatterplot transformer](https://globxblog.shinyapps.io/scatterplot-transformer/) is an interactive app exploring two transformations: **folding** (similar to opening a hand fan) and **bending** (like deforming a metal bar). The original dataset is displayed in light blue, the transformed dataset in blue and the center around which the data is folded/bent in red. Background grids are added to help understanding the transformations. It is possible to upload your own dataset and to download the outcome.
+
+
+<p> </p>
+
+<iframe width="100%" height="700px" src="https://globxblog.shinyapps.io/scatterplot-transformer/" allowfullscreen="allowfullscreen">
+</iframe>
+
+<p> </p>
+
+I have created this app to easily test my code while cleaning it up. I’m still unsure whether it can serve other purposes!
+
+---
+
+**Author**: Chloe
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/scatterplot-transformer)
+
+---

@@ -1,0 +1,67 @@
+---
+slug: pca 
+title: Finding hidden patterns in the data using principal components analysis
+thumbnail_title: PCA funk
+thumbnail_subtitle: The sound of principal component analysis
+thumbnail_vid: https://player.vimeo.com/video/532773848
+author: Ben
+date: '2021-04-11'
+categories: [Exploring data]
+tags: [sonification,animation,France,statistics]
+toc: yes
+autoCollapseToc: yes
+---
+
+In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows **monthly streamflows** at 207 sites in France for the period 1969-2014. Original data have been [transformed](https://geostatisticslessons.com/lessons/normalscore) to make the time series more comparable between sites. A value close to **zero** means streamflow is close to the **median flow** at this site. A large **positive** value means streamflow is **high** for this particular site, and inversely for a negative value.
+
+<p> </p>
+
+![](/img/France207_TransformedStreamflows.png)
+
+<p> </p>
+
+The figure is difficult to interpret due to the high number of entangled lines (one line per site). However, many sites seem to follow a similar temporal pattern.
+
+# Uncovering hidden patterns
+
+This post illustrates [principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) (PCA), a statistical technique to reveal one or more patterns hidden in the data. The 207 observed time series are summarised in just **a few synthetic ones**, called principal components, that preserve as much information as possible. Each component comes with a set of effects at all sites, as shown below for the first two principal components. At a given site, a large positive effect indicates that the time series tends to closely follow the component. A large negative effect means the time series tends to follow the *opposite* of the component. An effect close to zero means the time series is not affected by the component at all. Note that the precise values taken by the component and its effects do not really matter. What is important here are the spatial and the temporal patterns.
+
+<p> </p>
+
+![](/img/France207_PC1MapAndGraph.png)
+
+<p> </p>
+
+The first component shows a strong seasonality which affects most sites in France. The second principal component highlights the distinct hydrologic behavior of sites in the northern and the southern parts of the country.
+
+In summary, PCA collapses 207 entangled lines into just a few principal components. The relationship between the components, their effects and the original time series is illustrated in the figure below. The first component (in black) is superimposed on the time series (in light grey). The time series corresponding to sites having the 20 strongest effects are highlighted in a darker shade of grey, and indeed they look very similar to the component. On the contrary, the time series coming from the 20 sites with weakest effects (bottom panel) look dissimilar to the component. 
+
+<p> </p>
+
+![](/img/France207_PC1_highestAndLowest.png)
+
+<p> </p>
+
+# [Make my funk the PC funk](https://youtu.be/x9fNIrpkEiE?t=1190)
+
+Another way to interpret the results of PCA is to visualise the original dataset while listening to the components. In the [sonified](/glob/sonification-intro/) animation below, the map on the left shows the original data while the time series corresponding to the first two components are shown on the right. The first component controls the pitch and volume of an electric organ. The second component similarly controls a piano.
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/532773848" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+The role played by the first component can be heard quite clearly: high-pitched organ notes correspond to drought episodes across a large part of the country, lower notes correspond to particularly wet months. While more difficult to interpret, the role of the second component can also be heard by focusing on the piano notes and watching the southeastern corner of the country.
+
+# Moving beyond Principal Components Analysis
+
+PCA is a very general method that can be applied to a wide variety of problems. It is commonly used as a preliminary tool to explore and interpret large datasets (not necessarily space-time datasets such as here). However, it is not built to answer questions framed in terms of probabilities. For instance, a national water agency might want to know the probability of having a drought over more than 75% of the country, as such large-scale events may have negative consequences for irrigation, drinking water, etc. PCA cannot directly estimate this probability because it is lacking an explicit [statistical model](https://en.wikipedia.org/wiki/Statistical_model). [Probabilistic versions of PCA](https://stats.stackexchange.com/questions/203087) have been developed to remedy this. They also offer additional benefits such as a better handling of missing data, the ability to quantify uncertainties and more. We are developing such probabilistic models as part of the [HEGS project](/hegs).
+
+---
+
+**Authors**: Ben (sonification, writing) & Chloe (figures, animation, writing)
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/pca)
+
+---

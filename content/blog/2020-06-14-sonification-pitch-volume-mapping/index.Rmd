@@ -1,0 +1,77 @@
+---
+slug: sonification-pitch-volume-mapping
+title: 'Sonification techniques: mapping data to pitch and volume'
+thumbnail_title: The Wagga Wagga Melody
+thumbnail_subtitle: How to transform data into a melody using parameter mapping
+thumbnail_vid: https://player.vimeo.com/video/411936569
+author: Ben
+date: '2020-06-14'
+categories: [techniques]
+tags: [sonification]
+toc: yes
+autoCollapseToc: yes
+---
+
+# Mapping data to visual or auditory properties
+
+A common visualization technique is to use the color or size of symbols to represent data. The bubble map below shows an example.
+
+![](/img/floods2019.png)
+
+This figure visualizes the main [flood events](http://floodobservatory.colorado.edu/Archives/index.html) of 2019 as points on a world map. For each event, the flood-affected area is represented by the point size, while the flood duration is represented by the point color. This is an illustration of the basic data visualization technique called [aesthetics mapping](https://serialmentor.com/dataviz/aesthetic-mapping.html): data values are mapped onto some visual properties of the plot known as aesthetics (color and size of symbols here, but there are others such as transparency, symbol type, etc.).
+
+A very similar approach known as [parameter mapping](https://sonification.de/handbook/chapters/chapter15) can be used to [sonify](/blog/sonification-intro), rather than visualize, data. The idea is to represent data by using the properties of notes rather than symbols. In particular, the volume and the pitch of the note are the auditory counterpart of the symbol size and color. 
+
+# Example: the Wagga Wagga melody
+
+Times series are particularly well suited to pitch/volume mapping because their sonification leads to a succession of notes in time - that is, a melody. Consider for instance the times series of annual [precipitation](http://www.bom.gov.au/cgi-bin/climate/hqsites/site_data.cgi?variable=rain&area=aus&station=072150&period=annual&dtype=raw&ave_yr=0) (in mm) and [temperature](http://www.bom.gov.au/cgi-bin/climate/hqsites/site_data.cgi?variable=meanT&area=aus&station=072150&period=annual&dtype=raw&ave_yr=0) (in °C) in the city of Wagga Wagga, New South Wales, Australia. 
+
+![](/img/WaggaWaggaData.png)
+
+A possible sonification of this dataset is to map temperature to volume (so that warmer years correspond to louder notes) and precipitation to pitch (wetter years correspond to higher-pitched notes). More precisely, the temperature-to-volume mapping is set to create notes whose volume ranges from *pianississimo* (*ppp*) to *fortississimo* (*fff*); the precipitation-to-pitch mapping is set to create notes from a 2-octave A [minor pentatonic scale](https://en.wikipedia.org/wiki/Pentatonic_scale#Minor_pentatonic_scale) (A C D E G).
+
+The first video below shows the raw result of this sonification. The large year-to-year variability of precipitation leads to a rather 'jumpy' melody. Year-to-year variations in the temperature time series are more difficult to follow from the varying volume, but the warming trend can be heard quite clearly.
+
+In the second video, some musical background is added. Pursuing the analogy with the bubble map shown at the beginning of this post, this corresponds to adding the background map to the points. In particular, a rhythmic pattern helps keeping track of the passing time. Some guitar chords and a bass line are also used in an attempt to make the result sounds nicer. 
+
+<p> </p>
+
+<div class="col-xs-6 left">
+<iframe src="https://player.vimeo.com/video/426641144" frameborder="0" width="100%" height="220" allowfullscreen="allowfullscreen"></iframe>
+</div>
+<div class="col-xs-6 right">
+<iframe src="https://player.vimeo.com/video/411936569" frameborder="0" width="100%" height="220" allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+<p> </p>
+
+# First thoughts 
+
+While the Wagga Wagga melody above is just a preliminary example, it already highlights some interesting aspects of the sonification process.
+
+**Sonification and musification**: the Wagga Wagga melody was obtained by means of a two-part process. The first one is to create the notes from the data - this is the sonification part *per se*. The second one is to 'arrange' this raw melody by modifying the tempo, the instrument, or by adding some chords, a beat, etc. - possibilities are endless. Since this second part aims at turning sound into music, it could be described as 'musification'. This is the most creative but also by far the most time-consuming part.
+
+**Melody**: the musical scale into which data are mapped defines the melody and its choice hence largely determines the following steps. I found that musical scales containing only a few notes (e.g. 5-note pentatonic) are easier to work with than richer scales (e.g. 7-note scales). There is a strong analogy with the choice of the color scale in visualization: for instance, the distinction minor vs. major scales is similar to the distinction warm vs. cold color palettes.
+
+**Rhythm**: regularly-spaced time series (e.g. daily, monthly, yearly etc.) lead to a rather poor rhythm since all notes have the same duration. A possible way around it would be to use duration mapping, but so far I found it quite difficult and my preliminary attempts turned out to be unconvincing. A simpler option is to link successive identical notes: this will be illustrated in future posts. The choice of the [time signature](https://en.wikipedia.org/wiki/Time_signature) is also important. For instance seasonal data naturally lend themselves to 4-beat rhythms; monthly data can naturally be grouped into waltz-like 3-beat patterns or more bluesy 12-note bars; daily data opens the way for more exotic 7-beat rhythms in order to hear weeks; etc.
+
+**Orchestration**: as discussed in a [previous post](https://globxblog.inrae.fr/sonification-intro), sonification offers a promising way to explore several variables by mapping them into several instruments - in short, having data conduct a whole orchestra rather than just play a melody. The main difficulty is to find the right combination of variables, instruments and musical scales that make the ensemble 'sound good'. So far my preliminary attempts often ended up in a messy juxtaposition of notes... but I'm not giving up!
+
+# How to do it? A few practical tools
+
+For the **sonification** part:
+
+* the [Music Algorithms](http://musicalgorithms.org/4.1/app) website is a very good place to start: it allows transforming a series of data into a musical file in MIDI format using pitch and duration mapping.
+* in the R programming language, the package [playitbyr](http://playitbyr.org/index.html) provides a very nice interface for sonifying data with parameter mapping, but unfortunately it is not maintained any more. Interestingly, this package mimics the syntax of the [ggplot2](https://ggplot2.tidyverse.org) package, which emphasizes once again the strong analogy between parameter-mapping sonification and aesthetics-mapping visualization.
+* still in the R language, I am developing the [musicXML package](https://github.com/benRenard/musicXML)  to transform data into a musical score in [musicXML](https://en.wikipedia.org/wiki/MusicXML) format.
+* there are probably many alternatives in other programming languages: for instance [MIDITime](https://pypi.org/project/miditime) and [Sonic Pi](https://github.com/sonic-pi-net/sonic-pi) in Python, or the [Csound](https://csound.com) system.
+
+For the **musification** part, additional music software is useful to improve the raw result of a sonification exercise. For instance, the free and open-source [MuseScore](https://musescore.org) can be used to import and edit musical scores or MIDI files. I am personally mainly using the proprietary [Guitar Pro](https://www.guitar-pro.com/).
+
+---
+
+**Author**: Ben
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/sonification-pitch-volume-mapping)
+
+---

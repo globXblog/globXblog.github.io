@@ -1,0 +1,69 @@
+---
+slug: hegs
+title: 'Hydrologic Extremes at the Global Scale: the HEGS project'
+toc: yes
+autoCollapseToc: yes
+---
+
+# Objectives 
+
+Hydrologic extremes (floods and intense precipitations) are among Earth’s most common natural hazards and cause considerable loss of life and economic damage. Despite this, some of their key characteristics are still poorly understood at the global scale. The [IPCC](https://www.ipcc.ch) thus reports “a lack of evidence and thus low confidence regarding the sign of trend in the magnitude and/or frequency of floods on a global scale”. More generally, the space-time variability of hydrologic extremes is yet to be thoroughly described at the global scale. As a striking illustration, the recent initiative [23 unsolved problems in Hydrology](https://doi.org/10.1080/02626667.2019.1620507) includes questions such as: Is the hydrological cycle regionally accelerating/decelerating under climate and environmental change? How do extremes around the world teleconnect with each other and with other factors? How do flood-rich and drought-rich periods arise, are they changing, and if so why?
+
+It is vital to fill these knowledge gaps to inform design, safety and financial procedures and to improve hazard preparedness and response. The project’s ambition is hence to better understand the global space-time variability of hydrologic extremes, using a three-pillar research strategy based on methodological innovation, extensive data analysis and proof-of-concept case studies. The specific objectives are to:
+
+1. Develop a statistical framework to describe the global-scale variability of extremes in relation to climate;
+2. Analyse global precipitation/streamflow datasets with the aim of quantifying teleconnections, spatial clustering, trends and extreme-rich/poor periods, along with their climate drivers;
+3. Explore practical applications such as global early warning systems allowing international disaster response organisations to trigger early actions.
+
+Successful completion of the project will deliver new tools to analyse extremes at the global scale and will hence contribute to more efficient risk management.
+
+---
+
+# Outcomes
+
+## Scientific articles
+B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra. A Hidden Climate Indices Modeling Framework for Multivariable Space-Time Data. Water Resources Research, 2021. [{Open Access}](https://doi.org/10.1029/2021WR030007).
+
+B. Renard, M. Thyer. Revealing Hidden Climate Indices from the Occurrence of Hydrologic Extremes. Water Resources Research, 2019. [{Open Access}](https://hal.inrae.fr/hal-02610059). [{Journal's website}](https://doi.org/10.1029/2019WR024951).
+
+## Codes
+
+### Statistical Modeling
+
+[STooDs](https://github.com/STooDs-tools), a statistical modeling framework for data varying in Space, Time or other Dimensions.
+
+[disTRIMbution](https://github.com/benRenard/disTRIMbution), an R package to estimate trimmed (either truncated or rectified) distributions.
+
+[HydroPortailStats](https://github.com/benRenard/HydroPortailStats), an R package to estimate distributions, quantile curves and uncertainties, along with various other utilities.
+
+### Data Sonification
+
+[sequenceR](https://github.com/benRenard/sequenceR), an R package providing sequencing tools for data sonification.
+
+[musicXML](https://github.com/benRenard/musicXML), an R package providing a minimalistic (and incomplete) interface to the musicXML format, geared toward data sonification.
+
+### Other
+
+[globXblog](https://github.com/globXblog), this website, along with the data and R codes used to create its content (images, animations and videos).
+
+## Datasets
+
+Global reconstruction of flood and heavy precipitation probabilities, 1836-2015. [{Open Access}](https://zenodo.org/record/6773481)
+
+Reconstruction of flood probabilities in France, 1705-2015. [{Open Access}](https://zenodo.org/record/6793501)
+
+## Presentations and posters
+
+B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra, J.-P. Vidal. A Global-Scale Analysis of Hydrologic Extremes using Hidden Climate Indices. EGU General Assembly 2022, May 2022, Vienna, Austria. [{Presentation}](https://hal.archives-ouvertes.fr/hal-03710318)
+
+B. Renard, C. Le Bescond. The Music of Water. EGU General Assembly 2022, May 2022, Vienna, Austria. [{Presentation}](https://hal.archives-ouvertes.fr/hal-03710340)
+
+B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra. Latent variable models for multi-variable space-time data, with applications in hydrology. AppliBUGS seminar, AgroParisTech, Dec 2021, Paris, France. [{Presentation}](https://hal.archives-ouvertes.fr/hal-03477547v1)
+
+B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra. A Hidden Climate Indices Modeling Framework for Multi-Variable Space-Time Data: Illustration with Hot-and-Dry Summers in Southeast Australia. Workshop ICSH-STAHY 2021, Universitat Politècnica de València, Sep 2021, Valencia, Spain. [{Presentation}](https://hal.archives-ouvertes.fr/hal-03403580)
+
+---
+
+# They talked about HEGS
+
+Article in [Horizon Magazine](https://ec.europa.eu/research-and-innovation/en/horizon-magazine/big-lessons-about-biodiversity-loss-little-french-river)

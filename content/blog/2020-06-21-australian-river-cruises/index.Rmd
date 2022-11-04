@@ -1,0 +1,54 @@
+---
+slug: australian-river-cruises
+title: 'Exploring the hydrologic regime of 195 rivers in Australia'
+thumbnail_title: The Australian river cruises
+thumbnail_subtitle: Exploring the hydrologic regime of 195 rivers in Australia
+thumbnail_vid: https://player.vimeo.com/video/413888239
+author: Chloe
+date: '2020-06-21'
+categories: [exploring data]
+tags: [sonification, animation, Australia]
+toc: yes
+autoCollapseToc: yes
+---
+
+# Plotting hydrologic regimes
+
+Most hydrologic studies start by determining the average quantity of water in rivers and how it is distributed throughout the year.
+
+Let’s consider the Australian reference dataset provided by the Bureau of Meteorology, with [daily runoff data](http://www.bom.gov.au/water/hrs/) at 195 stations.
+
+A standard way to display hydrologic regimes is shown below through three examples. The bar **colour** represents the annual quantity of water (in mm/year). The bar **height** (y-axis) displays the fraction of this quantity flowing during each month (in %). The station location is shown by a point on the map.
+
+<p> </p>
+
+![](/img/StaticHydrologicRegimes.png)
+
+<p> </p>
+
+# Watching and listening to hydrologic regimes
+
+An original way to skim through the 195 plots is to use animation and sonification. Here, the representation is similar to the static plots above in terms of bar height and colour. All colours are picked from the [ochRe palettes](https://ropensci.org/blog/2017/11/21/ochre/), which are inspired by Australian landscapes and artworks.
+For the [sonification](/blog/sonification-pitch-volume-mapping/) part, the note volume plays the same role as the bar colour (annual flow). Similarly, the note pitch plays the same role as the bar height (fraction of flow). Each (musical!) bar contains 12 notes corresponding to the 12 months of the year, with successive identical notes being linked. The background percussion rhythm is a 3-beat pattern which helps identifying the individual stations. 
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/413888239" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+From what can be seen and heard, hydrologic regimes follow three main seasonal and geographical patterns:
+
+* high flows are observed during summer in the northern stations;
+* the south-eastern stations display a low seasonality, with similar flows all year round;
+* for other stations, the wettest period occurs in winter.
+
+This dataset is further explored in a separate post to determine more precisely the different types of seasonality in Australian rivers.
+
+---
+
+**Authors**: Chloe (figure, animation, writing) & Ben (sonification)
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/australian-river-cruises)
+
+---

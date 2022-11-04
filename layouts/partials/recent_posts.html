@@ -1,0 +1,40 @@
+{{ if isset .Site.Params "recent_posts" }}
+{{ if .Site.Params.recent_posts.enable }}
+<section class="bar background-white no-mb">
+<div class="container">
+    {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    <div class="row">
+        {{ range $index,$element := $posts.Pages }}
+            <div class="col-sm-12 col-md-4" >
+            <div style="border: 1px rgb(220, 220, 220) solid;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);margin:5px;height:300px;width:102%;">
+                <div class="box-image-text blog">
+                   <div class="top">
+                       <div class="image" style="overflow:hidden">
+                           {{ if isset .Params "thumbnail_img" }}
+                               <img src="{{ .Params.thumbnail_img | relURL }}" class="img-responsive" alt="" >
+                           {{ else }}
+                               {{ if isset .Params "thumbnail_vid" }}
+                                   <iframe src="{{ .Params.thumbnail_vid | relURL }}" frameborder="0" allowfullscreen="allowfullscreen" width="350" height="196" ></iframe>
+                               {{ else }}
+                                   <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
+                               {{ end }}
+                           {{ end }}
+                       </div>
+                   </div>
+                    <div class="content">
+                        <h4><a href="{{ .Permalink }}"> {{ .Params.thumbnail_title}} </a></h4>
+                        <p class="author-category"> {{ .Params.thumbnail_subtitle}} </p>
+                    </div>
+                </div>
+                <!-- /.box-image-text -->
+            </div>
+            </div>
+            {{ if eq (mod (add $index 1) 3) 0 }} <div class="clearfix"></div> {{ end }}
+        {{ end }}
+    </div>
+    <!-- /.row -->
+    {{ template "_internal/pagination.html" . }}
+</div>
+</section>
+{{ end }}
+{{ end }}

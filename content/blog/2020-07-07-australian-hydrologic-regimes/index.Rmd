@@ -1,0 +1,152 @@
+---
+slug: australian-hydrologic-regimes
+title: 'How Australian rivers can be grouped into 4 main hydrologic regimes'
+thumbnail_title: Flow seasonality in Australia
+thumbnail_subtitle: 'How Australian rivers can be grouped into 4 main hydrologic regimes'
+thumbnail_img: /img/AnimatedGroupMap.gif 
+author: Chloe
+date: '2020-07-07'
+categories: [exploring data]
+tags: [animation, Australia, clustering]
+toc: yes
+autoCollapseToc: yes
+---
+
+Investigating the [hydrologic regime of 195 rivers in Australia](/blog/australian-river-cruises/) revealed three types of flow seasonality. At some stations, the wettest period occurs during one particular season (winter or summer), whereas at others, similar flows are observed all year round.
+
+<p> </p>
+
+![](/img/HydrologicalRegimesExamples.png)
+
+<p> </p>
+
+How to determine the main seasonal and geographical patterns in hydrologic regimes more formally?
+
+# Splitting a dataset into groups
+
+Any dataset can be split into groups using [clustering methods](https://en.wikipedia.org/wiki/Cluster_analysis). This post summarises the main steps of one particular method: [hierarchical clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering).
+
+## Computing distances
+
+The first step is to compare the objects to be clustered two by two by defining a distance between them. Here, objects are streamflow stations and distances are calculated based on the fractions of the annual quantity of water flowing each month (in % of annual flow). The smaller the distance between two stations is, the more similar their flow distributions are.
+
+In the example below, station A is similar to station C as both stations display high flows during summer (distance = 0.05). On the contrary, station A is dissimilar to station H, as the later displays high flow during winter (distance = 0.60).
+
+<p> </p>
+
+![](/img/HydrologicalDistanceExamples.png)
+
+<p> </p>
+
+This first stage results in a table of distances like this:
+
+<p> </p>
+
+![](/img/distanceMatrix.png)
+
+<p> </p>
+
+## Merging similar objects
+
+The two closest stations in terms of flow distribution are then merged to form the first cluster C1. This step is reiterated using the remaining stations and C1 to form a second cluster C2, and so on. The difficulty is to compute distances when a cluster of stations is involved, as opposed to computing distances between individual stations (several [clustering options](https://en.wikipedia.org/wiki/Hierarchical_clustering#Linkage_criteria) exist).
+
+----
+<table style="max-width:600px; margin-left: auto;margin-right:auto">
+  <tr>
+    <th style="width:7%;text-align:center;"></th>
+    <th colspan="2" style="width:15%; text-align:center;">Merged objects</th>
+    <th style="width:8%;text-align:center;">Cluster name</th>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 1</td>
+    <td style="text-align:center;">StationA</td>
+    <td style="text-align:center;">StationC</td>
+     <td style="text-align:center;">C1</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 2</td>
+    <td style="text-align:center;">StationB</td>
+    <td style="text-align:center;">C1</td>
+     <td style="text-align:center;">C2</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 3</td>
+    <td style="text-align:center;">StationD</td>
+    <td style="text-align:center;">StationE</td>
+     <td style="text-align:center;">C3</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 4</td>
+    <td style="text-align:center;">StationF</td>
+    <td style="text-align:center;">C3</td>
+     <td style="text-align:center;">C4</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 5</td>
+    <td style="text-align:center;">StationG</td>
+    <td style="text-align:center;">StationH</td>
+     <td style="text-align:center;">C5</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 6</td>
+    <td style="text-align:center;">C4</td>
+    <td style="text-align:center;">C5</td>
+     <td style="text-align:center;">C6</td>
+  </tr>
+  <tr>
+     <td style="text-align:center;">Step 7</td>
+    <td style="text-align:center;">C2</td>
+    <td style="text-align:center;">C6</td>
+     <td style="text-align:center;">C7</td>
+  </tr>
+</table>
+----
+
+The result of this process can be visualised on a tree called [dendrogram](https://www.data-to-viz.com/graph/dendrogram.html):
+
+* the horizontal lines link the two closest clusters at each step;
+* the vertical lines show when they are linked during the process: the taller the vertical line is, the later the two clusters are merged.
+
+<p> </p>
+
+![](/img/LinearDendrogram8stations.png)
+
+<p> </p>
+
+## Gathering objects into groups
+
+The final step is to cut the dendrogram to form a given number of groups so every single station belongs to a group. On the example below, the dendrogram is cut into three groups following the dotted line.
+
+<p> </p>
+
+![](/img/LinearDendrogram8stations3groupsCut.gif)
+
+<p> </p>
+
+# Australia’s main hydrologic regimes
+
+The clustering process is performed on the Australian reference dataset provided by the Bureau of Meteorology, with [daily runoff data](http://www.bom.gov.au/water/hrs/) at 195 stations. The dendrogram suggests that stations can clearly be split into either two or four groups but the originally suspected 3-group cut is less appropriate.
+
+<p> </p>
+
+![](/img/WholeLinearCutDendrogram.png)
+
+<p> </p>
+
+Now, the 195 stations are split into 1, 2, 3 or 4 groups and the hydrologic regime of each group is revealed in an animation. The point **height** (y-axis) on the left-hand side plot displays the fraction of annual quantity of water flowing during each month (in %). The point **colour** corresponds to one particular hydrologic regime, both on the plot and the map showing the station locations. All colours are picked from the [ochRe palettes](https://ropensci.org/blog/2017/11/21/ochre/), which are inspired by Australian landscapes and artworks.
+
+<p> </p>
+
+![](/img/AnimatedGroupMap.gif)
+
+<p> </p>
+
+When the stations are split into two groups, the hydrologic regimes are well defined both spatially and seasonally: the high flows are observed during summer in the northern stations and during winter for the southern stations. These two main groups can each be split into two subgroups, which display a lower seasonality in hydrologic regimes with similar flows all year round.
+
+---
+
+**Author**: Chloe
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/australian-hydrologic-regimes)
+
+---

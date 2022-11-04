@@ -1,0 +1,37 @@
+---
+slug: world-floods 
+title: An interactive app to explore world floods
+thumbnail_title: Flood occurrences in the World 
+thumbnail_subtitle: Dig into 114 years of global flood data
+thumbnail_img: /img/flood_occurences.png
+author: Chloe
+date: '2021-03-28'
+categories: [Exploring data]
+tags: [interactive]
+toc: yes
+autoCollapseToc: yes
+---
+
+The [Global Streamflow Indices and Metadata Archive](https://doi.pangaea.de/10.1594/PANGAEA.887470) describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the [HEGS project](/hegs/) to study floods at the global scale. In order to get a quick overview of this large dataset, the [flood occurrences interactive map](https://globxblog.shinyapps.io/worldFloods/) shows, for each station, the largest flood for a given season of a given year:
+
+* circle **size** is proportional to the flood severity, expressed as a return period (eg 50-year flood, [100-year flood](https://en.wikipedia.org/wiki/100-year_flood), …).
+* circle **color** indicates whether the flood is larger than a given threshold.
+
+Seasons refer to those in the Northern Hemisphere; for example Winter is December-January-February.
+
+<p> </p>
+
+<iframe width="100%" height="770px" src="https://globxblog.shinyapps.io/worldFloods/" allowfullscreen="allowfullscreen">
+</iframe>
+
+<p> </p>
+
+Using the date selector, some notable large-scale floods appear on the map: [Winter 1964](https://www.northcoastjournal.com/NewsBlog/archives/2019/12/26/from-the-journal-archives-when-the-water-rose-in-1964) in Western US, [Winter 1995](https://www.cpc.ncep.noaa.gov/products/special_summaries/96_1/) in North America or [Winter 2005](https://en.wikipedia.org/wiki/2005_European_floods) in Europe are just a few of them.
+
+---
+
+**Authors**: Chloe (interactive app, writing) & Ben (data manipulation, writing)
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/world-floods)
+
+---

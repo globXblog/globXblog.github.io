@@ -1,0 +1,40 @@
+---
+slug: antarctica
+title: 'A postcard from Antarctica'
+thumbnail_title: 'A postcard from Antarctica'
+thumbnail_subtitle: 'Weather in the McMurdo Dry Valleys and flows from the Onyx river'
+thumbnail_vid: https://player.vimeo.com/video/653705727
+author: Ben
+date: '2022-03-23'
+categories: [Exploring data]
+tags: [sonification,animation]
+toc: yes
+autoCollapseToc: yes
+---
+
+Some time ago we’ve been lucky enough to receive the postcard below from the [Mc Murdo Dry Valleys](https://goo.gl/maps/yvQDwEfQjVAzmVti6), in Antarctica (thank you so much Kaelin!).    
+
+![](/img/postcard.png)    
+As described in this [captivating documentary](https://methods.sciencefriday.com/the-continental-outlier), this unique place is the playground of many scientists, including hydrologists since the [Onyx River](https://aerialcollection.com/recherche/?q=Onyx) flows here. The usual [dominant hydrological processes](/blog/hydrology-basics-1) do not really apply here: it’s a cold desert with barely any precipitation, no vegetation and hence no transpiration, and the water is frozen during most of the year. Flows of the Onyx mostly result from the melting of glaciers surrounding the valley in summer.
+
+The [McMurdo Dry Valleys Long Term Ecological Research Project](https://mcm.lternet.edu/) collects a whole bunch of datasets to monitor the state of the area and understand its functioning. For a blog interested in the visualisation and sonification of hydro-meteorological data, this is an unmissable opportunity to explore a very unique dataset!
+
+The [sonified animations](/blog/sonification-intro) below show time series measuring the Onyx streamflow ([acoustic guitar](blog/sonification-pitch-volume-mapping)) along with four meteorological variables measured at nearby [Lake Vanda](https://en.wikipedia.org/wiki/Lake_Vanda): temperature (electric guitar), wind speed ([bass drum and bass](blog/sonification-sequencing)), relative humidity and solar radiation (hi-hat and ride cymbals). The video on the left covers 2 years of data, the one on the right covers a longer 25-year period during which both meteorological and streamflow data were available. Note that measurements from the Onyx River actually started more than 50 years ago in 1969, a considerable achievement given the remoteness of the place!
+
+<iframe src="https://player.vimeo.com/video/653705727" top="0" width="400" height="225" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<iframe src="https://player.vimeo.com/video/653711453" top="0" width="400" height="225" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+During winter, weather in the Dry Valleys seems to alternate between windy days (highlighted by the bass) and quieter cold episodes (electric guitar, audible when temperature drops below -30 °C). During summer, the weather is of course warmer but also much less variable: most days are moderately windy, with few calm or stormy days. Summer is also the season during which the Onyx river wakes up. The amount and duration of its flows strongly varies from year to year. In particular, the summer of 2001-2002 was exceptional compared with previous years. The story behind this event and its impacts is told in the [documentary](https://methods.sciencefriday.com/the-continental-outlier) already mentioned earlier. 
+
+---
+
+**Authors**: Ben (sonification, writing) & Chloe (animation)    
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/antarctica)
+
+---
+
+

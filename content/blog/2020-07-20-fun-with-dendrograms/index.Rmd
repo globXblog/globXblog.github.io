@@ -1,0 +1,62 @@
+---
+slug: fun-with-dendrograms
+title: 'Fun with dendrograms'
+thumbnail_title: Fun with dendrograms
+thumbnail_subtitle: 'Find out three ways to visualise hierarchical data'
+thumbnail_img: /img/LinearToCircularDendrogram4Groups195stations.gif 
+author: Chloe
+date: '2020-07-20'
+categories: [just fun!]
+tags: [animation, Australia, clustering]
+toc: yes
+autoCollapseToc: yes
+---
+
+A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:
+
+* the **leaves** represent the objects of the dataset;
+* the **branches** link similar leaves according to a given criterion.
+
+Below are three animated dendrograms based on [daily runoff data](http://www.bom.gov.au/water/hrs/) from the Australian reference dataset provided by the Bureau of Meteorology. They serve no purpose but to play with the dendrogram object since results are already discussed in the post about [flow seasonality in Australia](/blog/australian-hydrologic-regimes/). 
+
+# Linear dendrogram
+
+The most standard representation of a dendrogram is to align its leaves at the bottom of the plot. Here, leaves are streamflow stations and branches link stations with similar flow seasonality. The linear dendrogram is successively cut into 1, 2, 3 or 4 groups following the dotted line. The point **colour** corresponds to one particular group.
+
+<p> </p>
+
+![](/img/LinearDendrogram1to4Groups195stations.gif)
+
+<p> </p>
+
+# Circular dendrogram
+
+Another way to draw a dendrogram is to connect the two ends of the linear dendrogram baseline. The leaves are now forming a circle all around the branches. Here, a new information is added: the point **size** represents the annual quantity of water.
+
+<p> </p>
+
+![](/img/CircularDendrogram1to3Groups195stations.gif)
+
+<p> </p>
+
+What does it look like when the dendrogram goes from linear to circular?
+
+# Bending a dendrogram
+
+The 4-group linear dendrogram baseline is gradually bent to form a full circle ultimately.
+
+<p> </p>
+
+![](/img/LinearToCircularDendrogram4Groups195stations.gif)
+
+<p> </p>
+
+In the same way as colour and size represent station properties, the bending angle could be used to represent some property of the whole dataset – for instance the proportion of missing data. This may be explored in future posts.
+
+---
+
+**Author**: Chloe
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/fun-with-dendrograms)
+
+---

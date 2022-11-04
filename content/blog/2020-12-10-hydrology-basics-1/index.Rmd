@@ -1,0 +1,67 @@
+---
+slug: hydrology-basics-1
+title: 'Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration'
+thumbnail_title: 'Hydrology basics, episode 1'
+thumbnail_subtitle: 'Precipitation, streamflow and potential evapotranspiration'
+thumbnail_vid: https://player.vimeo.com/video/481648928
+author: Ben
+date: '2020-12-10'
+categories: [Hydrology basics]
+tags: [sonification,animation]
+toc: yes
+autoCollapseToc: yes
+---
+
+How does water end up flowing in rivers? As schematized below, it is the result of processes that have taken place in the [river basin](https://en.wikipedia.org/wiki/Drainage_basin), also known as a **catchment** and delineated by a red line in the figure.
+
+<p> </p>
+
+![](/img/CatchmentWaterBalance.png)
+
+<p> </p>
+
+For a given river section, [streamflow](https://www.usgs.gov/special-topic/water-science-school/science/streamflow-and-water-cycle) originates from [precipitation](https://www.usgs.gov/special-topic/water-science-school/science/precipitation-and-water-cycle) that fell into the corresponding catchment. Snow stays where it lands until temperature is warm enough to melt it. From there, water originating from either melted snow or rain moves downward to the river through many possible paths. For instance, it may infiltrate the soil and take a slow underground trip. Alternatively, it may quickly run off a rocky or soaked surface. Part of this water never makes it to the river, and goes back to the atmosphere by [evaporation](https://www.usgs.gov/special-topic/water-science-school/science/evaporation-and-water-cycle) (from the soil or from a lake for instance) and [transpiration](https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle) (from the vegetation). The sum of the two processes is called **evapotranspiration**.
+
+# Sounds from the catchment
+
+In summary, there is basically **one way in** (precipitation) and **two ways out** (streamflow and evapotranspiration) of the catchment. This post explores the daily time series corresponding to these three key variables for the [Ardèche](https://en.wikipedia.org/wiki/Ard%C3%A8che_(river)) river at [Sauze](https://www.geoportail.gouv.fr/carte?c=4.116443038350031,44.46652662602236&z=9&l0=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD::GEOPORTAIL:OGC:WMTS(1)&l1=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l2=ELEVATION.SLOPES::GEOPORTAIL:OGC:WMTS(0.52)&l3=HYDROGRAPHY.HYDROGRAPHY::GEOPORTAIL:OGC:WMTS(1)&d4=3035764(1)&permalink=yes) (France, catchment area: 2258 km²).
+
+The [sonified](/blog/sonification-intro/) animation below uses the technique of [parameter mapping](/blog/sonification-pitch-volume-mapping/):
+
+* Precipitation controls the rhythm section (vibraphone, drum kick and bass).
+* Streamflow controls an electric guitar. It is expressed in millimeters (mm) to make comparisons with precipitation easier. The value in mm can be interpreted as the thickness of the layer that would result from collecting all the daily streamflow and spreading it evenly across the whole catchment.
+* [Potential evapotranspiration](https://en.wikipedia.org/wiki/Potential_evaporation) controls an electric piano. It is also expressed in mm, with the same interpretation as for streamflow.
+
+Weeks are highlighted using 7-note patterns that can be heard during the introduction. The 10-second introduction corresponds to 8 weeks of data. 
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/481648928" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+Precipitation and streamflow look similar but the latter is roughly twice as small and looks a little smoother. This is often referred to as the filtering role of the catchment when transforming precipitation into streamflow. The guitar always seems to be late with respect to the bass and the vibraphone, reflecting the time needed for precipitation to induce a streamflow response.
+
+Potential evapotranspiration, on the other hand, looks totally different from precipitation and streamflow: the values are much smaller (only a couple of mm at most), but they are less erratically distributed during the year. As suggested by the piano, it is the dominant process during the summer months but it becomes less prominent during winter.
+
+# The tricky water balance in a catchment
+
+In the long term, the amount of water entering and exiting the catchment should add up. Keeping track of this is called studying the catchment [water balance](https://en.wikipedia.org/wiki/Water_balance).
+
+Unfortunately, streamflow, precipitation and evapotranspiration are not always sufficient for this purpose, because catchments are not perfectly closed systems as implied by the simplified description above. In particular, water can be exchanged between catchments. Such a transfer of water may be generated artificially as part of a water management strategy, but it may also occur naturally due to some underground geological feature resulting in one catchment leaking into another.
+
+In addition, none of the three times series in the animation are direct measurements, which induces all sorts of uncertainties:
+
+* The precipitation time series corresponds to the average precipitation over the whole catchment. It is estimated using a relatively small number of raingauges which represent a very small fraction of the catchment area.
+* The streamflow time series is estimated from the measurement of the water height in the river. This [transformation](https://www.usgs.gov/special-topic/water-science-school/science/how-streamflow-measured) is not straightforward.
+* The potential evapotranspiration time series is not an estimation of evapotranspiration itself, but rather an estimation of its maximum possible value: it is the amount of water that would be returned to the atmosphere if this water was available in soil, plants, lakes, etc. But the actual evapotranspiration might be much lower than the potential one if there is no much water left at the surface to be evaporated.
+
+Studying the catchment water balance without precisely measuring what comes in and what goes out makes it both challenging and interesting!
+
+---
+
+**Authors**: Ben (figure, sonification, writing) & Chloe (animation)
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/hydrology-basics-1)
+
+---

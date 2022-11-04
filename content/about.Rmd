@@ -1,0 +1,19 @@
+---
+slug: about
+title: About this website
+toc: yes
+autoCollapseToc: yes
+---
+
+# Why this blog? 
+
+*globXblog* was developed as part of the [HEGS project](https://cordis.europa.eu/project/id/835496) which studied floods and intense precipitations around the world. Rather than describing the project's results in details, the blog focuses on having fun with climate data using visualisation and [sonification](/blog/sonification-intro) techniques to look at them from a different angle.
+
+Check out the [gallery](/) for individual graphics, animations and videos; alternatively, browse through the [blog posts](/blog) for more detailed explanations. You can also get the associated [codes and data](https://github.com/globXblog/scripts). The main project outcomes are listed on the [HEGS](/hegs) page.
+
+# Who is writing?
+
+**Benjamin Renard**: I’m an hydrologist and I develop statistical methods to analyse hydroclimatic datasets and their uncertainties. I usually use graphs to illustrate data, methods and results, and I’m now learning how to make music out of them.
+
+**Chloé Le Bescond**: I work in environmental monitoring. I usually collect data either through field or lab measurements. I am now learning how to manipulate them using the R programming language. In this blog, I create animations and interactive apps to explore hydroclimatic datasets.
+

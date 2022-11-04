@@ -1,0 +1,46 @@
+---
+slug: about-the-logo
+title: 'About the logo'
+thumbnail_title: 'About the logo'
+thumbnail_subtitle: 'Find out the data behind the logo'
+thumbnail_vid: https://player.vimeo.com/video/488008452
+author: Chloe
+date: '2021-01-25'
+categories: [Just fun!]
+tags: [sonification, animation, sequencing]
+toc: yes
+autoCollapseToc: yes
+---
+ 
+The globXblog logo is a colourful doughnut that mimics an equaliser, referring to the sonification and visualisation part of the blog. In its core, a stormy icon represents the hydrological part of the blog. The equaliser is surrounded by a globe stand, in reference to global scale hydrology.
+
+# The dataset behind the logo
+
+The main element of the blog’s logo is drawn from an actual dataset of [flood events](http://floodobservatory.colorado.edu/Archives/index.html) that occurred between January 1985 and June 2020.
+Each bar symbolises a **month** and its height depicts the **number of flood events** that began during this month. The bar colours represent the four **seasons**, whereas the colour shades denote four categories of **flood-affected area**. The categories, from small to very large, have been defined arbitrary to get a nice visual outcome.
+
+<p> </p>
+
+![](/img/logoExplanation.png)
+
+<p> </p>
+
+# Turntabling the logo
+
+To capture the evolution of the number of flood events year after year, the logo now comes to life in a sonified animation. It grows month by month while spinning as a turntable. A grey cone indicates which month is played.
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/488008452" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+Sonification is performed by [sequencing](/blog/sonification-sequencing/) a few sounds evocative of the content of this blog: four notes inspired by the blog’s name (G-loB#-B-loG becomes G, low C, B, low G) along with drums, cymbals and water sounds. There is also some noise and randomness in this sonification process, just as in the data used in the blog!
+
+---
+
+**Authors**: Chloe (figure, animation, writing) & Ben (sonification)
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/about-the-logo)
+
+---

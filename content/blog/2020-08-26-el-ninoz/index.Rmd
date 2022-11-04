@@ -1,0 +1,50 @@
+---
+slug: el-ninoz
+title: 'El NiñOz'
+thumbnail_title: 'El NiñOz'
+thumbnail_subtitle: 'The effect of El Niño and La Niña on Eastern Australian rainfall'
+thumbnail_vid: https://player.vimeo.com/video/440621263
+author: Ben
+date: '2020-08-26'
+categories: [Exploring data]
+tags: [sonification,animation,Australia]
+toc: yes
+autoCollapseToc: yes
+---
+
+The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm. These are known as **El Niño** episodes. Sometimes the opposite phenomenon occurs, with extended periods of colder-than-usual temperatures, known as **La Niña** episodes. This [oscillation](https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation) between cold and warm episodes has wide-ranging effects on the climate of the Earth.
+
+# El Niño and La Niña in Australia
+
+In Australia, La Niña episodes are typically associated with large rainfall on the Eastern part of the country, as described in more details by the [Bureau of Meteorology](http://www.bom.gov.au/climate/about/australian-climate-influences.shtml?bookmark=enso). What does this association look like exactly? and what does it *sound* like?
+
+This can be explored using two datasets:
+
+1. Monthly rainfall [data](http://www.bom.gov.au/web01/ncc/www/cli_chg/timeseries/rain/allmonths/eaus/latest.txt) in [Eastern Australia](http://www.bom.gov.au/climate/change/about/rain_timeseries.shtml).
+2. Monthly values from the Southern Oscillation Index ([SOI](http://www.bom.gov.au/climate/current/soihtm1.shtml)) with high values denoting La Niña episodes, and low values El Niño episodes.
+
+The video below shows the [sonification](/blog/sonification-intro/) of this dataset, using the technique of [parameter mapping](https://globxblog.inrae.fr/sonification-pitch-volume-mapping/). More precisely, the animation/sonification is based on the following elements:
+
+* Opposite SOI values (-1*SOI) control the pitch and volume of a piano. El Niño episodes can therefore clearly be identified as parts with high-pitched piano notes.
+* The same -1*SOI values are averaged at the seasonal scale (leading to 4 values per year, instead of 12). This seasonal series is used to control a bass, drums and cymbals, so that La Niña episodes will be low and loud!
+* Rainfall values control the volume and pitch of an organ and a guitar, so only very wet months will be clearly heard.
+
+A few other elements (a drum pattern, saturation and reverberation) are added to improve the way the result sounds, but they are not data-driven.
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/440621263" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+# A few thoughts
+
+Overall, the association between La Niña episodes and high rainfall can be seen and heard quite clearly. However the video also reveals that this association is not systematic: for instance, the La Niña of 1988-1989 did not resulted in particularly high rainfall. Conversely, rainfall was pretty high during the El Niño of 1940-1941. So while the El Niño / La Niña oscillation does influence the probability of seeing low/high rainfall, there remains some degree on randomness in this association. In addition, this oscillation is only one of [several mechanisms](http://www.bom.gov.au/watl/about-weather-and-climate/australian-climate-influences.shtml) influencing the climate of Australia. So maybe these other [climate sheepdogs](https://youtu.be/GlJzwmkePMk) played a role as well?
+
+---
+
+**Author**: Ben
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/el-ninoz)
+
+---
