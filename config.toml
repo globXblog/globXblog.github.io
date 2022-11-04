@@ -1,0 +1,67 @@
+theme = "hugo-universal-theme"
+baseURL = 'http://example.org/'
+languageCode = 'en-au'
+title = 'globXblog'
+paginate = 9
+summaryLength = 25
+publishDir= "docs"
+    
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Blog"
+  weight = 20
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "HEGS project"
+  weight = 30
+  identifier = "hegs"
+  url = "/hegs/"
+[[menu.main]]
+  name = "Codes and data"
+  weight =40
+  identifier = "codes"
+  url = "https://github.com/globXblog/scripts"
+[[menu.main]]
+  name = "About"
+  weight =50
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+    name = "rss"
+    weight = 60
+    identified = "rss"
+    url = "/index.xml"
+
+[permalinks] 
+    post = "/:year/:month/:day/:slug/"
+    
+[params]
+    date_format = "2 January 2006"
+    disabled_logo = false
+    logo = "img/logoWithText.png"
+    logo_small = "img/logo.png"
+    style = "blue"
+        
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+    
+[params.recent_posts]
+    enable = true
+    hide_summary = false
+
+[params.topbar]
+    enable = false
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/globXblog"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+    
