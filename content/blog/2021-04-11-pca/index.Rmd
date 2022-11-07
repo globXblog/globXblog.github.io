@@ -29,6 +29,9 @@ This post illustrates [principal component analysis](https://en.wikipedia.org/wi
 <p> </p>
 
 ![](/img/France207_PC1MapAndGraph.png)
+<p> </p>
+
+![](/img/France207_PC2MapAndGraph.png)
 
 <p> </p>
 

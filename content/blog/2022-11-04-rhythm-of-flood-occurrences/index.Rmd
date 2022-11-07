@@ -12,14 +12,19 @@ toc: yes
 autoCollapseToc: yes
 ---
 
-https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood
+"*This was a 100-year event*". 
 
-https://fivethirtyeight.com/features/its-time-to-ditch-the-concept-of-100-year-floods/
+This type of sentence is often heard [in the news](https://www.smh.com.au/national/mid-north-coast-enduring-one-in-100-year-event-20210321-p57cny.html) after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened. But beyond the catchy expression hides a genuine risk management concept called [**return period**](https://en.wikipedia.org/wiki/Return_period), that is as tricky as it is widely used. The aim of this post is to build some intuition around return periods using music (and a tiny bit of math).
 
+# What is a return period?
+
+The return period is defined as the *average* duration between two successive occurences of an event. So a flood has a return period of e.g. 10 years if, *on average*, you would expect to wait 10 years until something as bad (or even worse!) happens again. Importantly, there is [no periodicity](https://theconversation.com/what-is-a-1-in-100-year-weather-event-and-why-do-they-keep-happening-so-often-157589) in the occurrence of 10-year events: you may wait 2 years, 8 years, 20 years ... between two successive 10-year floods, and only in the longer-term will these durations average to 10 years.
+
+The 'return period' terminology is hence confusing because of the unfortunate use of the word 'period'. The expression [recurrence interval](https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood) is in fact often considered as a better alternative. Moreover, the following definition is also frequently used: a flood is qualified as a 10-year event if the probability of something as bad happening in any given year is 1/10. This is arguably a better alternative since the use of a probability makes the random nature of flood occurrences more explicit. But it also raises a legitimate question: why is this definition equivalent to the previous one? How do you move from a probability to an average duration? 
 
 # The rhythm of flood occurrences 
 
-XXX 
+The video below explores this issue by [sonifying](/blog/sonification-sequencing) the occurrence of floods and listening to the corresponding rhythm. At the beginning, the video illustrates the rhythm induced by an event occuring every 10 years exactly. It then switches to the occurrence of 10-year floods: every time the flood time series on the right exceeds the 10-year flood threshold, a bass sound is triggered. The graphic building up during the video aims at keeping track of the duration between two successive events.
 
 <p></p>
 
@@ -27,21 +32,25 @@ XXX
 
 <p></p>
 
+This video reveals interesting aspects of how 10-year floods occur. The most stricking aspect is how irregular it is. While waiting times between two successive occurrences indeed average to 10 years in the long term (10.3 by the end of the video - close enough!), they are not distributed symetrically around the value 10. In fact, small waiting times are the most common, and more rarely a very long waiting time will pop up. 
+
 # Let's do the maths
 
-It is actually fairly easy to work out the maths hiding behind this plot. 
+It is actually fairly easy to work out the maths hiding behind this plot. Let's assume there was a 10-year flood last year, and let's count the number of years before we see another one (or worse).
 
-Let's assume there was a 10-year flood last year, and let's count the number of years before we see another one (or worse).
+* Waiting only one year means that the flood occurs on the first year, and as explained above this has probability 0.1.
+* Waiting 2 years means that there is no occurrence on year 1 (this has probability 0.9), but there is one on year 2 (probability 0.1). The probability of having this particular sequence (no occurrence, then occurrence) is 0.9\*0.1=0.09. 
+* Waiting 3 years means that there is no occurrence on year 1 (probability 0.9), no occurrence on year 2 (probability 0.9) but there is one on year 3 (probability 0.1). This gives 0.9\*0.9\*0.1=0.9<sup>2</sup>\*0.1=0.081.
+* An so one and so forth... waiting 4 years gives 0.9<sup>3</sup>\*0.1, waiting *k* years gives 0.9<sup>*k*-1</sup>\*0.1
 
-Waiting only one year means that the flood occurs on the first year, and as explained above this has probability 0.1.
 
-Waiting 2 years means that there is no occurrence on year 1 (this has probability 0.9), but there is one on year 2 (probability 0.1). The probability of having this particular sequence (no occurrence, then occurrence) is 0.9\*0.1=0.09. 
+This is known as the [geometric distribution](https://en.wikipedia.org/wiki/Geometric_distribution) associated with a probability of occurrence *p*=0.1, and [it can be shown](https://en.wikipedia.org/wiki/Geometric_distribution#Moments_and_cumulants) that the mean of this distribution is equal to 1/*p*: this explains the link between a probability of occurrence and an average duration.
 
-Waiting 3 years means that there is no occurrence on year 1 (probability 0.9), no occurrence on year 2 (probability 0.9) but there is one on year 3 (probability 0.1). This gives 0.9\*0.9\*0.1=0.9<sup>2</sup>\*0.1=0.081.
+# Final thoughts 
 
-An so one and so forth... waiting 4 years gives 0.9<sup>3</sup>\*0.1, waiting *k* years gives 0.9<sup>*k*-1</sup>\*0.1
+https://fivethirtyeight.com/features/its-time-to-ditch-the-concept-of-100-year-floods/
 
-https://theconversation.com/what-is-a-1-in-100-year-weather-event-and-why-do-they-keep-happening-so-often-157589
+This [flood explorer app](https://globxblog.shinyapps.io/worldFloods/) shows that a 100-year flood is happening *somewhere in the world* nearly every year!
 
 ---
 
