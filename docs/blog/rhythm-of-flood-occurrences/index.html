@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-au">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
+<meta name="author" content="Ben" />
+
+
+
+
+<meta name="keywords" content="sonification, animation, statistics, floods">
+
+
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.105.0">
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link href="/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/css/custom.css?1668782943" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="https://globxblog.github.io/index.xml" type="application/rss+xml" title="globXblog">
+
+
+
+
+
+
+
+<meta property="og:updated_time" content="2022-11-04T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="Hydrology basics">
+  <meta property="article:tag" content="sonification">
+  <meta property="article:tag" content="animation">
+  <meta property="article:tag" content="statistics">
+  <meta property="article:tag" content="floods">
+  
+  
+  <meta property="article:published_time" content="2022-11-04T00:00:00Z">
+  <meta property="article:modified_time" content="2022-11-04T00:00:00Z">
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="Hydrology basics, episode 2: the rhythm of flood occurrences">
+
+<meta name="twitter:description" content="">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <img src="/img/logoWithText.png" alt="Hydrology basics, episode 2: the rhythm of flood occurrences logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.png" alt="Hydrology basics, episode 2: the rhythm of flood occurrences logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">Hydrology basics, episode 2: the rhythm of flood occurrences - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+                    
+                  
+
+                  
+
+                  
+                  <li class="dropdown active">
+                    <a href="/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hegs/">HEGS project</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="https://github.com/globXblog/scripts">Codes and data</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/about/">About</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/index.xml">rss</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Hydrology basics, episode 2: the rhythm of flood occurrences</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              4 November 2022
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          
+
+<div id="TOC">
+
+</div>
+
+<p>“<em>This was a 100-year event</em>”.</p>
+<p>This type of sentence is often heard <a href="https://www.smh.com.au/national/mid-north-coast-enduring-one-in-100-year-event-20210321-p57cny.html">in the news</a> after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened. But beyond the catchy expression hides a genuine risk management concept called <a href="https://en.wikipedia.org/wiki/Return_period"><strong>return period</strong></a>, that is as tricky as it is widely used. The aim of this post is to build some intuition around return periods using music (and a tiny bit of math).</p>
+<div id="what-is-a-return-period" class="section level1">
+<h1>What is a return period?</h1>
+<p>The return period is defined as the <strong>average</strong> duration between two successive occurences of an event. So a flood has a return period of e.g. 10 years if, <strong>on average</strong>, you would expect to wait 10 years until something as bad (or even worse!) happens again. Importantly, there is <a href="https://theconversation.com/what-is-a-1-in-100-year-weather-event-and-why-do-they-keep-happening-so-often-157589">no periodicity</a> in the occurrence of 10-year events: you may wait 2 years, then 8 years, then 20 years etc. between two successive 10-year floods, and only in the longer-term will these durations average to 10 years.</p>
+<p>The ‘return period’ terminology is hence confusing because of the unfortunate use of the word ‘period’. The expression <a href="https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood">recurrence interval</a> is in fact often considered as a better alternative. Moreover, the following definition is also frequently used: a flood is qualified as a 10-year event if the probability of something as bad happening in any given year is 1/10. This is arguably a better alternative since the use of a probability makes the random nature of flood occurrences more explicit. But it also raises a legitimate question: why is this definition equivalent to the previous one? How do you move from a probability (1/10) to an average duration (10 years)?</p>
+</div>
+<div id="the-rhythm-of-flood-occurrences" class="section level1">
+<h1>The rhythm of flood occurrences</h1>
+<p>The video below explores this issue by <a href="/blog/sonification-sequencing">sonifying</a> the occurrence of floods and listening to the corresponding rhythm. At the beginning, the video illustrates the rhythm induced by an event occuring every 10 years exactly. It then switches to random flood occurrences: every time the flood time series on the right exceeds a threshold, a bass sound is triggered. This threshold has been computed so that it has a probability of being exceeded equal to 1/10. The graphic building up during the video aims at keeping track of the duration between two successive events: if the definitions discussed above are equivalent, these durations should average to 10 years in the longer term.</p>
+<p>
+</p>
+<iframe src="https://player.vimeo.com/video/653714131" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen">
+</iframe>
+<p>
+</p>
+<p>This video highlighths the highly irregular nature of flood occurrences: the steady rhythm of the intro switches to a much shakyer and unpredictable rhythm, reflecting the randomness of flood occurrences.</p>
+<p>Inspecting the waiting times between successive events reveals other interesting aspects of how 10-year floods occur. Starting with the good news, the waiting times average to 10 years in the long term as expected (10.3 by the end of the video - close enough!). However, waiting times are not distributed evenly around this average value of 10 years as one may have expected. Instead, the distribution of waiting times is highly <strong>asymetric</strong>, with small values being much more common than large ones: the probability of waiting less than 10 years between two occurrences is roughly 2/3. The <em>median</em> waiting time is 6 years, i.e. you have 50% chance of waiting less than 6 years between two successive 10-year floods. So in a nutshell, a sequence of 10-year floods will tend to look like this: several close occurrences (making you feel they are too frequent) and, from time to time, a very long time with no floods (making you forget they even exist!). This has consequences on the perception of flood risk.</p>
+</div>
+<div id="lets-do-the-maths" class="section level1">
+<h1>Let’s do the maths</h1>
+<p>It is actually fairly easy to work out the maths hiding behind this video. Let’s assume there was a 10-year flood last year, and let’s count the number of years before we see another one (or worse).</p>
+<ul>
+<li>Waiting only one year means that the flood occurs on the first year, and as explained above this has probability 0.1.</li>
+<li>Waiting 2 years means that there is no occurrence on year 1 (this has probability 0.9), but there is one on year 2 (probability 0.1). The probability of having this particular sequence (no occurrence, then occurrence) is 0.9*0.1=0.09.</li>
+<li>Waiting 3 years means that there is no occurrence on year 1 (probability 0.9), no occurrence on year 2 (probability 0.9) but there is one on year 3 (probability 0.1). This gives 0.9*0.9*0.1=0.9<sup>2</sup>*0.1=0.081.</li>
+<li>An so one and so forth… waiting 4 years gives 0.9<sup>3</sup>*0.1, waiting <em>k</em> years gives 0.9<sup><em>k</em>-1</sup>*0.1</li>
+</ul>
+<p>This is known as the <a href="https://en.wikipedia.org/wiki/Geometric_distribution">geometric distribution</a> associated with a probability of occurrence <em>p</em>=0.1, and <a href="https://en.wikipedia.org/wiki/Geometric_distribution#Moments_and_cumulants">it can be shown</a> that the mean of this distribution is equal to 1/<em>p</em>: this explains the link between a probability of occurrence and an average duration.</p>
+</div>
+<div id="so-return-periods-or-probabilities" class="section level1">
+<h1>So, return periods or probabilities?</h1>
+<p>The notion of return period is widely used in the management of natural hazards. The historical reasons why it has become so prevalent are unclear to me. Maybe durations were considered to be more intuitive to handle than probabilities? But this post illustrates that this is not quite the case: return periods are tricky to manipulate and can lead to counter-intuitive results. Some people are even arguing that the concept should be <a href="https://fivethirtyeight.com/features/its-time-to-ditch-the-concept-of-100-year-floods/">ditched</a> altogether. Whether or not you agree with this statement, one thing is clear: thinking in terms of probability rather than return period is necessary to make computations such as the ones discussed earlier.</p>
+<p>In a future post, we will further explore other apparent oddities of extreme events, such as: why are rare events happenning <a href="https://globxblog.shinyapps.io/worldFloods">so frequently</a>?</p>
+<hr />
+<p><strong>Author</strong>: Ben</p>
+<p><strong>Codes and data</strong>: browse on <a href="https://github.com/globXblog/scripts/tree/main/src/rhythm-of-flood-occurrences">GitHub</a></p>
+<hr />
+</div>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="https://globxblog.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/exploring-data">EXPLORING-DATA (8)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/hydrology-basics">HYDROLOGY-BASICS (2)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/just-fun">JUST-FUN (4)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/techniques">TECHNIQUES (3)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/tags/animation"><i class="fas fa-tags"></i> animation</a>
+            </li>
+            
+            <li >
+                <a href="/tags/australia"><i class="fas fa-tags"></i> australia</a>
+            </li>
+            
+            <li >
+                <a href="/tags/clustering"><i class="fas fa-tags"></i> clustering</a>
+            </li>
+            
+            <li >
+                <a href="/tags/floods"><i class="fas fa-tags"></i> floods</a>
+            </li>
+            
+            <li >
+                <a href="/tags/france"><i class="fas fa-tags"></i> france</a>
+            </li>
+            
+            <li >
+                <a href="/tags/interactive"><i class="fas fa-tags"></i> interactive</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sequencing"><i class="fas fa-tags"></i> sequencing</a>
+            </li>
+            
+            <li >
+                <a href="/tags/sonification"><i class="fas fa-tags"></i> sonification</a>
+            </li>
+            
+            <li >
+                <a href="/tags/statistics"><i class="fas fa-tags"></i> statistics</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+  <div class="container">
+    
+    <div class="col-xs-4 left">
+        <p> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No <a href="https://cordis.europa.eu/project/id/835496">835496</a> </p>
+    </div>
+  
+    <div class="col-xs-8 right">
+      <p>  <a href="https://ec.europa.eu/info/index_en"><img src="/img/EUflag.jpg" alt="EU Flag" height="100"> </a>
+      <a href="https://www.inrae.fr/en"><img src="/img/logoINRAE.png" alt="INRAE" height="100"> </a> <a href="https://www.adelaide.edu.au"><img src="/img/logoUoA.png" alt="UoA" height="100"> </a> </p>    </div>
+  </div>
+    
+</footer>
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

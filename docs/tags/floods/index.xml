@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>floods on globXblog</title>
+    <link>https://globxblog.github.io/tags/floods/</link>
+    <description>Recent content in floods on globXblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/floods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
+      <link>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</guid>
+      <description>“This was a 100-year event”.
+This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
+    </item>
+    
+    <item>
+      <title>An interactive app to explore world floods</title>
+      <link>https://globxblog.github.io/blog/world-floods/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/blog/world-floods/</guid>
+      <description>The Global Streamflow Indices and Metadata Archive describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the HEGS project to study floods at the global scale.</description>
+    </item>
+    
+  </channel>
+</rss>
