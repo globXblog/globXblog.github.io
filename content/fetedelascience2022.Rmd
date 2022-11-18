@@ -23,6 +23,12 @@ Les vidéos que vous regardez explorent ces évolutions plus en détail, rivièr
 <img src="/img/sonification-scaled.jpg" width="80%">
 </div>
 
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/746451180" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
 Pour en savoir plus:
 
 * [Visualisation interactive](https://hydroapps.recover.inrae.fr/fete-de-la-science-2022) des vidéos
