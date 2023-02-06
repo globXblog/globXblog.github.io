@@ -46,6 +46,8 @@ B. Renard, M. Thyer. Revealing Hidden Climate Indices from the Occurrence of Hyd
 
 [globXblog](https://github.com/globXblog), this website, along with the data and R codes used to create its content (images, animations and videos).
 
+[Hydrological Soundscapes](https://github.com/HydrologicalSoundscapes), an interactive app to explore the music of hydrological regimes around the world.
+
 ## Datasets
 
 Global reconstruction of flood and heavy precipitation probabilities, 1836-2015. [{Open Access}](https://zenodo.org/record/6773481)
@@ -67,3 +69,6 @@ B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra. A Hidden 
 # They talked about HEGS
 
 Article in [Horizon Magazine](https://ec.europa.eu/research-and-innovation/en/horizon-magazine/big-lessons-about-biodiversity-loss-little-french-river)
+
+Post at [EGU Hydrological Sciences Blog](https://blogs.egu.eu/divisions/hs/2023/02/01/hydrological-soundscapes-listening-to-hydrological-regimes/)
+
