@@ -1,0 +1,49 @@
+---
+slug: hydrological-soundscapes
+title: 'Hydrological Soundscapes'
+thumbnail_title: 'Hydrological Soundscapes'
+thumbnail_subtitle: 'World Music made by Rivers'
+thumbnail_vid: https://player.vimeo.com/video/797324591
+author: Ben
+date: '2023-02-09'
+categories: [Exploring Data]
+tags: [sonification,animation,interactive]
+toc: yes
+autoCollapseToc: yes
+---
+
+The seasonality of flows in a river is an important part of its identity. Many studies start by displaying a chart similar to the one below to identify high-flow and low-flow seasons at a glance. In a previous post, we already illustrated how these charts could be sonified to explore [hydrologic regimes in Australia](/blog/australian-river-cruises). This post goes one step further by introducing [Hydrological Soundspace](https://hydrologicalsoundscapes.github.io/), an interactive web app developped by [ihdev](https://www.ihdev.fr/en) to explore hydrologic regimes all over the world in an interactive way. 
+
+
+<p> </p>
+
+![](/img/hydrologicalSoundscapes.png)
+
+<p> </p>
+
+# World Music, by Rivers
+
+The video below shows a demo of [Hydrological Soundspace](https://hydrologicalsoundscapes.github.io/). Hydrometric stations measuring river flow can be selected by a clic on the map, and the chart panel on the left shows the seasonality of flows (top), but also of floods (middle) and droughts (bottom). Each chart controls a distinct musical instrument, and the tempo is inversely proportional to the average flow. Each river therefore creates its own song that can be interpreted as a kind of musical ID. The web app also allows experimenting with various options such as the musical scale used to create the melody, the rhythmic pattern, etc.
+
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/797324591" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+
+# Insights
+
+As a general rule, nearby stations tend to sound similar, while large geographical jumps make a larger musical difference. However, there are exceptions to this rule, in particular in mountainous areas. Cold vs. warm regions.
+
+Interesting questions such as: should floods be associated with high or low pitches? should small rivers sound slow or fast?
+
+
+---
+
+**Author**: Ben (data manipulation, writing) and Ivan (development of the webapp)
+
+**Codes and data**: browse on [GitHub](https://github.com/HydrologicalSoundscapes)
+
+---
