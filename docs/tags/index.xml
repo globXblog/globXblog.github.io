@@ -6,13 +6,31 @@
     <description>Recent content in Tags on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>animation</title>
       <link>https://globxblog.github.io/tags/animation/</link>
-      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://globxblog.github.io/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interactive</title>
+      <link>https://globxblog.github.io/tags/interactive/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/tags/interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sonification</title>
+      <link>https://globxblog.github.io/tags/sonification/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/tags/sonification/</guid>
       <description></description>
     </item>
     
@@ -22,15 +40,6 @@
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://globxblog.github.io/tags/floods/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sonification</title>
-      <link>https://globxblog.github.io/tags/sonification/</link>
-      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://globxblog.github.io/tags/sonification/</guid>
       <description></description>
     </item>
     
@@ -58,15 +67,6 @@
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://globxblog.github.io/tags/france/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interactive</title>
-      <link>https://globxblog.github.io/tags/interactive/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://globxblog.github.io/tags/interactive/</guid>
       <description></description>
     </item>
     

@@ -23,7 +23,7 @@ The seasonality of flows in a river is an important part of its identity. Many s
 
 # World Music, by Rivers
 
-The video below shows a demo of [Hydrological Soundspace](https://hydrologicalsoundscapes.github.io/). Hydrometric stations measuring river flow can be selected by a clic on the map, and the chart panel on the left shows the seasonality of flows (top), but also of floods (middle) and droughts (bottom). Each chart controls a distinct musical instrument, and the tempo is inversely proportional to the average flow. Each river therefore creates its own song that can be interpreted as a kind of musical ID. The web app also allows experimenting with various options such as the musical scale used to create the melody, the rhythmic pattern, etc.
+The video below shows a demo of [Hydrological Soundspace](https://hydrologicalsoundscapes.github.io/). Hydrometric stations measuring river flow can be selected by a clic on the map, and the chart panel on the left shows the seasonality of flows (top), but also of floods (middle) and droughts (bottom). Each chart controls a distinct musical instrument, and the tempo is inversely proportional to the average flow. Each river therefore creates its own song that can be interpreted as a kind of musical ID. This sonification exercise raised interesting questions such as: are high-pitched notes evocative of drought of flood conditions? Should small rivers sound slow or fast? The web app allows experimenting with various musical options such as the association between flow and pitch, the scale used to create the melody, the rhythmic pattern,  etc. 
 
 
 <p></p>
@@ -33,16 +33,21 @@ The video below shows a demo of [Hydrological Soundspace](https://hydrologicalso
 <p></p>
 
 
-# Insights
+# A quick overview of hydrological regimes in the world
 
-As a general rule, nearby stations tend to sound similar, while large geographical jumps make a larger musical difference. However, there are exceptions to this rule, in particular in mountainous areas. Cold vs. warm regions.
+The web app allows exploring the various types of hydrological regimes and the regions where they are found. As a general rule, nearby rivers tend to sound similar, while large geographical jumps make a larger musical difference. This can be explained by the main [hydrological processes](/blog/hydrology-basics-1) controlling the amount of water flowing in rivers, which are themselves influenced by the [various types of climate](https://en.wikipedia.org/wiki/Climate_classification) prevailing in different parts of the world: 
 
-Interesting questions such as: should floods be associated with high or low pitches? should small rivers sound slow or fast?
+* Rivers in cold regions or moutainous areas generally have a strong seasonality: droughts occur between winter and early spring, when precipitation falling as snow does not create flow in the river, while floods occur between late spring and summer, due to the melting of snow or glaciers. Such rivers can be found for instance in Canada, Alaska, Russia, the Alps, Tibet, the Mountain states in Western US, or the Andes in the Southern Hemisphere (beware of the season inversion!).
+* Rivers in tropical areas have a somewhat similar seasonality to cold-regions ones, but for completely different reasons since snow plays obviously no role. Winter is often the dry season, while summer is wet and can be prolonged by a hurricane season in autumn. Such rivers can be found for instance in Mexico, India, Western Africa or Northern Australia.
+* In temperate regions, late autumns and winters tend to be wet and therefore constitute the flood season. Summers are generally dryer and therefore constitute the drought season, which often extends to the early autumn. Such rivers can be found for instance in Western Europe, the US West coast or Southeast Australia.
+* There exist an infinity of nuances between these archetypal regimes. In particular, some rivers have a very weak seasonality, indicating that floods and droughts may happen anytime during the year. Examples of such rivers can be found in Iceland, the East coast of Australia, New Zealand or Central Europe.
+
+You may also notice that for some rivers, a surprizing large fraction of the annual lowest flows fall in January (for instance in Namibia or in Central and Northwestern Australia). This is actually an artifact induced by the ephemeral nature of these rivers: streamflow remains equal to zero during an important part of the year, and the the first zero encountered during the year is considered as the smallest flow, hence artificially inflating January. [Intermittent rivers](https://www.hydrosheds.org/applications/intermittent-rivers) are quite peculiar and their seasonality would need to be characterized in a specific way (e.g. by computing the center of gravity of zero-flow periods). 
 
 
 ---
 
-**Author**: Ben (data manipulation, writing) and Ivan (development of the webapp)
+**Author**: Ben (data manipulation, writing) and Ivan (development of the web app)
 
 **Codes and data**: browse on [GitHub](https://github.com/HydrologicalSoundscapes)
 
