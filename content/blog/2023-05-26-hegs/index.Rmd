@@ -1,0 +1,39 @@
+---
+slug: hegs
+title: 'Hydro-Extremes in the World'
+thumbnail_title: 'Hydro-Extremes in the World'
+thumbnail_subtitle: 'Listen to 100 years of 100-year events'
+thumbnail_vid: https://player.vimeo.com/video/802751683
+author: Ben
+date: '2023-05-26'
+categories: [Exploring Data]
+tags: [sonification,animation,floods,heavy precipitation]
+toc: yes
+autoCollapseToc: yes
+---
+
+XXX. 
+
+In a previous post, we already [XXX](/blog/rhythm-of-flood-occurrences). 
+
+# Data
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/802751683" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+
+# Comments
+
+XXX
+
+
+---
+
+**Author**: Ben
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/hegs)
+
+---
