@@ -7,4 +7,5 @@ themes/
 resources/
 static/img/
 static/sound/
+static/doc/
 docs/**/*.Rmd

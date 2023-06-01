@@ -22,6 +22,10 @@ Successful completion of the project will deliver new tools to analyse extremes 
 # Outcomes
 
 ## Scientific articles
+B. Renard, D. McInerney, S. Westra, M. Leonard, D. Kavetski, M. Thyer, J.-P. Vidal. Floods and Heavy Precipitation at the Global Scale: 100-Year Analysis and 180-Year Reconstruction. Journal of Geophysical Research: Atmospheres, 2023. [{Open Access}](/doc/HEGSpaper.pdf). [{Journal's website}](https://doi.org/10.1029/2022JD037908).
+
+B. Renard. Use of a national flood mark database to estimate flood hazard in the distant past. Hydrological Sciences Journal, 2023. [{Open Access}](/doc/FloodMarksPaper.pdf). [{Journal's website}](https://doi.org/10.1080/02626667.2023.2212165).
+
 B. Renard, M. Thyer, D. McInerney, D. Kavetski, M. Leonard, S. Westra. A Hidden Climate Indices Modeling Framework for Multivariable Space-Time Data. Water Resources Research, 2021. [{Open Access}](https://doi.org/10.1029/2021WR030007).
 
 B. Renard, M. Thyer. Revealing Hidden Climate Indices from the Occurrence of Hydrologic Extremes. Water Resources Research, 2019. [{Open Access}](https://hal.inrae.fr/hal-02610059). [{Journal's website}](https://doi.org/10.1029/2019WR024951).
