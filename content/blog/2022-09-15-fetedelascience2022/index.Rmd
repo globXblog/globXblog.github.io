@@ -1,0 +1,45 @@
+---
+slug: fetedelascience2022
+title: "L'eau des rivières et le changement climatique"
+thumbnail_title: '[fr] Fête de la Science 2022'
+thumbnail_subtitle: "L'eau des rivières et le changement climatique"
+thumbnail_vid: https://player.vimeo.com/video/746451180
+author: Ben
+date: '2022-09-15'
+categories: [Exploring Data]
+tags: [sonification,animation,France]
+toc: yes
+autoCollapseToc: yes
+---
+
+Avant de s’écouler dans la rivière, l'eau suit un long périple au sein de la surface de collecte des eaux appelée bassin versant (en rouge ci-dessous). L'eau entre dans le bassin versant sous forme de précipitations, puis commence son voyage vers l'aval via une multitude de chemins possibles. Une partie de cette eau n'arrivera jamais à la rivière et retournera dans l’atmosphère par évaporation ou par transpiration des plantes.
+
+<div style="text-align:center;">
+<img src="/img/Allos4-scaled.jpg" width="80%">
+</div>
+
+L’évolution du **débit des rivières** sous l'effet du changement climatique dépend donc de l’évolution des **précipitations** et de l’**évapotranspiration**. Les cartes ci-dessous montrent que, sur la période 1968 - 2019, les changements observés sur les précipitations annuelles sont assez modestes. En revanche, l’évapotranspiration potentielle a augmenté quasiment partout en France sous l'effet de l'augmentation des températures. Dans les rivières, ceci se traduit par des débits annuels en forte baisse dans le sud du pays.
+
+<div style="text-align:center;">
+<img src="/img/trends-scaled.jpg" width="80%">
+</div>
+
+Les vidéos que vous regardez explorent ces évolutions plus en détail, rivière par rivière. La musique a été générée à partir des données via un procédé nommé [sonification](/blog/sonification-intro). Le graphique du haut contrôle le rythme et représente les valeurs moyennes pour chacune des quatre saisons de chaque année. Le graphique du bas contrôle la mélodie et représente les mêmes données mais exprimées sous formes d'anomalies: une barre vers le haut correspond à une valeur plus forte qu'habituellement pour cette saison, et inversement pour une barre vers le bas. 
+
+<div style="text-align:center;">
+<img src="/img/sonification-scaled.jpg" width="80%">
+</div>
+
+<p> </p>
+
+<iframe src="https://player.vimeo.com/video/746451180" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p> </p>
+
+Pour en savoir plus:
+
+* [Visualisation interactive](https://hydroapps.recover.inrae.fr/fete-de-la-science-2022) des vidéos
+* [Plus de détails](https://makaho.sk8.inrae.fr) sur les changements observés dans les rivières
+* [Impacts du changement climatique](https://www.eaufrance.fr/les-impacts-du-changement-climatique-sur-leau) sur l'eau
+* Les dossiers de [Météo France](https://meteofrance.com/changement-climatique/observer)
+

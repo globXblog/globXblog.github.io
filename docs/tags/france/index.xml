@@ -6,7 +6,16 @@
     <description>Recent content in France on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/france/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/france/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;eau des rivières et le changement climatique</title>
+      <link>https://globxblog.github.io/blog/fetedelascience2022/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/blog/fetedelascience2022/</guid>
+      <description>Avant de s’écouler dans la rivière, l’eau suit un long périple au sein de la surface de collecte des eaux appelée bassin versant (en rouge ci-dessous).</description>
+    </item>
+    
     <item>
       <title>Finding hidden patterns in the data using principal components analysis</title>
       <link>https://globxblog.github.io/blog/pca/</link>
