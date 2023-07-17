@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>heavy precipitation on globXblog</title>
+    <link>https://globxblog.github.io/tags/heavy-precipitation/</link>
+    <description>Recent content in heavy precipitation on globXblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/heavy-precipitation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floods and Heavy Precipitation in the World</title>
+      <link>https://globxblog.github.io/blog/hegs/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://globxblog.github.io/blog/hegs/</guid>
+      <description>Observed data are essential to understand, quantify and predict the risk posed by extreme climatic events. In the case of floods or heavy precipitation, such data take the form of long series measured at stream gauging or weather stations.</description>
+    </item>
+    
+  </channel>
+</rss>
