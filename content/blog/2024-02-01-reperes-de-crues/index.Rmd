@@ -1,0 +1,55 @@
+---
+slug: reperes-de-crues
+title: 'Be Kind, Rewind!'
+thumbnail_title: 'Be Kind, Rewind!'
+thumbnail_subtitle: 'Traveling Back in Time with Flood Marks '
+thumbnail_vid: https://player.vimeo.com/video/815008124
+author: Ben
+date: '2024-02-01'
+categories: [Exploring Data]
+tags: [sonification,animation,floods,France]
+toc: yes
+autoCollapseToc: yes
+---
+
+Flood risk assessment relies on [hydrometric stations (sometimes called streamgages)](https://www.usgs.gov/mission-areas/water-resources/science/streamgaging-basics) that monitor river discharge, i.e. the amount of water flowing in rivers every hour or day. In France, many hydrometric stations were installed during the 1960's , progressively building into a large [national hydrometric network](https://www.hydro.eaufrance.fr/). However, very few stations existed before the 1950's. The situation is similar in many countries around the world, as shown in the figure below.
+
+<br>
+<div style="border-style: solid;border-width: 1px;">
+![](/img/HydrometricNetworks.png)
+</div>
+<p style="text-align: center;color: gray;"> Number of operative hydrometric stations over the years in various countries. Source: [Le Coz, 2017](https://hal.inrae.fr/tel-02606946). </p>
+<br>
+
+Obviously, floods didn't wait for hydrometric stations to occur. What other sources of information can we use to travel back in time before the mid-20th century and estimate the major flood events that occurred in the last few centuries?
+
+In France, the [flood mark database](https://www.reperesdecrues.developpement-durable.gouv.fr) is one such source of information. It describes thousands of geolocalized, perennial flood marks such as plaques or markers painted or carved on walls, sometimes dating back several centuries. This information can be used together with data from hydrometric stations to estimate ancient flood probabilities in France. This blog post aims at illustrating the process used for this reconstruction, with full details available in [this article](https://hal.science/hal-04112153).
+
+<br>
+![](/img/Rhone_La-Roche-De-Glun_SPCGrandDelta.jpg)
+<p style="text-align: center;color: gray;"> Example of flood marks. Source: [reperes de crues, SPC Grand Delta](https://www.reperesdecrues.developpement-durable.gouv.fr/site/chemin-du-four-chaux-2#rep554728). </p>
+<br>
+
+The reconstruction of ancient flood events is based of the method of *hidden climate indices*, which was already described in a [previous post](/blog/hci). 
+The video shown below illustrates the underlying principle. The starting point is the dataset shown in the two small maps of France (top right quadrant) and containing both flood mark occurrences and flood discharge measured at hydrometric stations.
+
+<br>
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/815008124" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+# Most Remarkable Floods of the Last Three Centuries
+
+XXX list key events
+XXX refer to Michel's stuff + Martin.
+
+---
+
+**Author**: Ben
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/reperes-de-crues)
+
+---
