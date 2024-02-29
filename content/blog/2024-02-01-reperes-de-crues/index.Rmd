@@ -31,7 +31,11 @@ In France, the [flood mark database](https://www.reperesdecrues.developpement-du
 <br>
 
 The reconstruction of ancient flood events is based of the method of *hidden climate indices*, which was already described in a [previous post](/blog/hci). 
-The video shown below illustrates the underlying principle. The starting point is the dataset shown in the two small maps of France (top right quadrant) and containing both flood mark occurrences and flood discharge measured at hydrometric stations.
+The video shown below illustrates the underlying principle. The starting point is the dataset shown in the two small maps of France (top right quadrant). On the left, points represent "active" flood mark sites, i.e. sites for which the earliest and the latest flood marks bracket the current year. An orange point denotes the presence of a flood mark. On the right, points represent active hydrometric stations, and the size and "orangeness" of the point is proportional to the discharge measured for the largest flood of the year.
+
+The time series below those maps show two hidden climate indices that have been identified from these data: they can be thought as "invisible hands" that drive the occurrence of both flood marks at sites and large discharge values at hydrometric stations. At the beginning of the video, the large number of available hydrometric stations leads to a precise identification (i.e. with a small uncertainty) of the hidden climate indices. As one moves back in time, the number of available stations decreases, which leads to an increase in uncertainty. However, thanks to the flood marks, it remains possible to identify - albeit unprecisely -  the hidden climate indices, even when there is not a single hydrometric station left. Finally, the hidden climate indices can be used to compute flood probabilities at hydrometric stations (large map on the left), during the whole period 1705-2015  - that is, before the hydrometric stations even existed!
+
+The music in the video has been created by applying the sonification technique of [parameter mapping](/blog/sonification-pitch-volume-mapping/) to the two hidden climate indices: they control the pitch and volume of two electric pianos, which you can hear in the left and right ear if you're using headphones. The amount of reverberation is also increasing with the uncertainty as one moves back in time.
 
 <br>
 
@@ -41,10 +45,7 @@ The video shown below illustrates the underlying principle. The starting point i
 
 <p></p>
 
-# Most Remarkable Floods of the Last Three Centuries
-
-XXX list key events
-XXX refer to Michel's stuff + Martin.
+This video highlights some large flood events that have left a trace in the collective memory of the country and have shaped many national strategies for flood risk management: the [1910 flood](https://en.wikipedia.org/wiki/1910_Great_Flood_of_Paris) of the Seine river, that strongly impacted Paris; the [multiple events during the mid-19th century](https://inforisques.loiret.fr/memoire-du-risque/xixe-siecle-les-3-grandes-crues-extraordinaires-de-la-loire), in particular on the Loire river; or, more than 300 years ago, the floods of [February-March 1711](https://www.reperesdecrues.developpement-durable.gouv.fr/?service_prevention_crues=&latitude=&longitude=&commune=&date_crue_debut=1711-01-01&date_crue_fin=1711-04-01&extendRepereRecherche%5Bniveau_validation%5D=&extendRepereRecherche%5Bmaximum_crue%5D=&extendRepereRecherche%5Bphec%5D=&extendRepereRecherche%5Bvisibilite%5D=&extendRepereRecherche%5Brestauration%5D=&extendRepereRecherche%5Baltitude_ngf%5D=&extendRepereRecherche%5Baltitude_nivelee%5D=&op=Lancer+la+recherche) that affected most large rivers in France including the Loire, the Seine, the Rhône and the Saône.
 
 ---
 
