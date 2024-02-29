@@ -6,43 +6,35 @@
     <description>Recent content in just fun! on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/categories/just-fun/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/categories/just-fun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Folding and bending data</title>
       <link>https://globxblog.github.io/blog/scatterplot-transformer/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/scatterplot-transformer/</guid>
       <description>In the fun with dendrograms post, a linear dendrogram is gradually bent into a full circle. This transformation isn’t specific to dendrograms and can be applied to any dataset.</description>
     </item>
-    
     <item>
       <title>About the logo</title>
       <link>https://globxblog.github.io/blog/about-the-logo/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/about-the-logo/</guid>
       <description>The globXblog logo is a colourful doughnut that mimics an equaliser, referring to the sonification and visualisation part of the blog. In its core, a stormy icon represents the hydrological part of the blog.</description>
     </item>
-    
     <item>
       <title>Transforming a distance matrix into a map</title>
       <link>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</guid>
       <description>The map in the figure below shows the location of 195 hydrologic stations, which can be used to explore the hydrologic regimes of Australian rivers.</description>
     </item>
-    
     <item>
       <title>Fun with dendrograms</title>
       <link>https://globxblog.github.io/blog/fun-with-dendrograms/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/fun-with-dendrograms/</guid>
-      <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:
-the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
+      <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:&#xA;the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
     </item>
-    
   </channel>
 </rss>

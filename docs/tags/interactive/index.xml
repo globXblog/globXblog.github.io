@@ -6,33 +6,28 @@
     <description>Recent content in interactive on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/interactive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/tags/interactive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hydrological Soundscapes</title>
       <link>https://globxblog.github.io/blog/hydrological-soundscapes/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hydrological-soundscapes/</guid>
       <description>The seasonality of flows in a river is an important part of its identity. Many studies start by displaying a chart similar to the one below to identify high-flow and low-flow seasons at a glance.</description>
     </item>
-    
     <item>
       <title>An interactive app to explore world floods</title>
       <link>https://globxblog.github.io/blog/world-floods/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/world-floods/</guid>
       <description>The Global Streamflow Indices and Metadata Archive describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the HEGS project to study floods at the global scale.</description>
     </item>
-    
     <item>
       <title>Folding and bending data</title>
       <link>https://globxblog.github.io/blog/scatterplot-transformer/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/scatterplot-transformer/</guid>
       <description>In the fun with dendrograms post, a linear dendrogram is gradually bent into a full circle. This transformation isn’t specific to dendrograms and can be applied to any dataset.</description>
     </item>
-    
   </channel>
 </rss>

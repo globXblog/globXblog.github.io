@@ -6,96 +6,77 @@
     <description>Recent content in Tags on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>animation</title>
       <link>https://globxblog.github.io/tags/animation/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://globxblog.github.io/tags/animation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>floods</title>
       <link>https://globxblog.github.io/tags/floods/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://globxblog.github.io/tags/floods/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>France</title>
+      <link>https://globxblog.github.io/tags/france/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/tags/france/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sonification</title>
+      <link>https://globxblog.github.io/tags/sonification/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/tags/sonification/</guid>
+      <description></description>
+    </item>
     <item>
       <title>heavy precipitation</title>
       <link>https://globxblog.github.io/tags/heavy-precipitation/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/heavy-precipitation/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>sonification</title>
-      <link>https://globxblog.github.io/tags/sonification/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://globxblog.github.io/tags/sonification/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>interactive</title>
       <link>https://globxblog.github.io/tags/interactive/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/interactive/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>statistics</title>
       <link>https://globxblog.github.io/tags/statistics/</link>
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/statistics/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>France</title>
-      <link>https://globxblog.github.io/tags/france/</link>
-      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://globxblog.github.io/tags/france/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Australia</title>
       <link>https://globxblog.github.io/tags/australia/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/australia/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>sequencing</title>
       <link>https://globxblog.github.io/tags/sequencing/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/sequencing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>clustering</title>
       <link>https://globxblog.github.io/tags/clustering/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/tags/clustering/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -6,34 +6,35 @@
     <description>Recent content in floods on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/floods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/tags/floods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Be Kind, Rewind!</title>
+      <link>https://globxblog.github.io/blog/reperes-de-crues/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/blog/reperes-de-crues/</guid>
+      <description>Flood risk assessment relies on hydrometric stations (sometimes called streamgages) that monitor river discharge, i.e. the amount of water flowing in rivers every hour or day.</description>
+    </item>
     <item>
       <title>Floods and Heavy Precipitation in the World</title>
       <link>https://globxblog.github.io/blog/hegs/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hegs/</guid>
       <description>Observed data are essential to understand, quantify and predict the risk posed by extreme climatic events. In the case of floods or heavy precipitation, such data take the form of long series measured at stream gauging or weather stations.</description>
     </item>
-    
     <item>
       <title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
       <link>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</link>
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</guid>
-      <description>“This was a 100-year event”.
-This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
+      <description>“This was a 100-year event”.&#xA;This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
     </item>
-    
     <item>
       <title>An interactive app to explore world floods</title>
       <link>https://globxblog.github.io/blog/world-floods/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/world-floods/</guid>
       <description>The Global Streamflow Indices and Metadata Archive describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the HEGS project to study floods at the global scale.</description>
     </item>
-    
   </channel>
 </rss>

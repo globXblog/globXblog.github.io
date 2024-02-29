@@ -6,34 +6,28 @@
     <description>Recent content in statistics on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
       <link>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</link>
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</guid>
-      <description>“This was a 100-year event”.
-This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
+      <description>“This was a 100-year event”.&#xA;This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
     </item>
-    
     <item>
       <title>Revealing Hidden Climate Indices</title>
       <link>https://globxblog.github.io/blog/hci/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hci/</guid>
       <description>In a previous post, we illustrated a widely used method called principal component analysis (PCA). This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called principal components.</description>
     </item>
-    
     <item>
       <title>Finding hidden patterns in the data using principal components analysis</title>
       <link>https://globxblog.github.io/blog/pca/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/pca/</guid>
       <description>In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows monthly streamflows at 207 sites in France for the period 1969-2014.</description>
     </item>
-    
   </channel>
 </rss>

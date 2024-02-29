@@ -6,25 +6,21 @@
     <description>Recent content in Hydrology basics on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/categories/hydrology-basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/categories/hydrology-basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
       <link>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</link>
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</guid>
-      <description>“This was a 100-year event”.
-This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
+      <description>“This was a 100-year event”.&#xA;This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
     </item>
-    
     <item>
       <title>Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration</title>
       <link>https://globxblog.github.io/blog/hydrology-basics-1/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hydrology-basics-1/</guid>
       <description>How does water end up flowing in rivers? As schematized below, it is the result of processes that have taken place in the river basin, also known as a catchment and delineated by a red line in the figure.</description>
     </item>
-    
   </channel>
 </rss>

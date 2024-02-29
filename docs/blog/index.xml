@@ -6,179 +6,147 @@
     <description>Recent content in Blogs on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://globxblog.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Be Kind, Rewind!</title>
+      <link>https://globxblog.github.io/blog/reperes-de-crues/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/blog/reperes-de-crues/</guid>
+      <description>Flood risk assessment relies on hydrometric stations (sometimes called streamgages) that monitor river discharge, i.e. the amount of water flowing in rivers every hour or day.</description>
+    </item>
     <item>
       <title>Floods and Heavy Precipitation in the World</title>
       <link>https://globxblog.github.io/blog/hegs/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hegs/</guid>
       <description>Observed data are essential to understand, quantify and predict the risk posed by extreme climatic events. In the case of floods or heavy precipitation, such data take the form of long series measured at stream gauging or weather stations.</description>
     </item>
-    
     <item>
       <title>Hydrological Soundscapes</title>
       <link>https://globxblog.github.io/blog/hydrological-soundscapes/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hydrological-soundscapes/</guid>
       <description>The seasonality of flows in a river is an important part of its identity. Many studies start by displaying a chart similar to the one below to identify high-flow and low-flow seasons at a glance.</description>
     </item>
-    
     <item>
       <title>Hydrology basics, episode 2: the rhythm of flood occurrences</title>
       <link>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</link>
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/rhythm-of-flood-occurrences/</guid>
-      <description>“This was a 100-year event”.
-This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
+      <description>“This was a 100-year event”.&#xA;This type of sentence is often heard in the news after a flood or a storm hits somewhere, as it does a good job at carrying the rarity of what happened.</description>
     </item>
-    
     <item>
       <title>L&#39;eau des rivières et le changement climatique</title>
       <link>https://globxblog.github.io/blog/fetedelascience2022/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/fetedelascience2022/</guid>
       <description>Avant de s’écouler dans la rivière, l’eau suit un long périple au sein de la surface de collecte des eaux appelée bassin versant (en rouge ci-dessous).</description>
     </item>
-    
     <item>
       <title>A postcard from Antarctica</title>
       <link>https://globxblog.github.io/blog/antarctica/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/antarctica/</guid>
       <description>Some time ago we’ve been lucky enough to receive the postcard below from the Mc Murdo Dry Valleys, in Antarctica (thank you so much Kaelin!</description>
     </item>
-    
     <item>
       <title>Revealing Hidden Climate Indices</title>
       <link>https://globxblog.github.io/blog/hci/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hci/</guid>
       <description>In a previous post, we illustrated a widely used method called principal component analysis (PCA). This method can be used as an exploratory tool to summarise a dataset made of hundreds or thousands of time series into just a few ‘summary’ time series called principal components.</description>
     </item>
-    
     <item>
       <title>Finding hidden patterns in the data using principal components analysis</title>
       <link>https://globxblog.github.io/blog/pca/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/pca/</guid>
       <description>In hydrology, it is frequent to analyse long time series coming from many sites. The figure below shows monthly streamflows at 207 sites in France for the period 1969-2014.</description>
     </item>
-    
     <item>
       <title>An interactive app to explore world floods</title>
       <link>https://globxblog.github.io/blog/world-floods/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/world-floods/</guid>
       <description>The Global Streamflow Indices and Metadata Archive describes hydrological regimes all over the World. A subset of around 2000 stations over the period 1903-2016 is used in the HEGS project to study floods at the global scale.</description>
     </item>
-    
     <item>
       <title>Folding and bending data</title>
       <link>https://globxblog.github.io/blog/scatterplot-transformer/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/scatterplot-transformer/</guid>
       <description>In the fun with dendrograms post, a linear dendrogram is gradually bent into a full circle. This transformation isn’t specific to dendrograms and can be applied to any dataset.</description>
     </item>
-    
     <item>
       <title>About the logo</title>
       <link>https://globxblog.github.io/blog/about-the-logo/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/about-the-logo/</guid>
       <description>The globXblog logo is a colourful doughnut that mimics an equaliser, referring to the sonification and visualisation part of the blog. In its core, a stormy icon represents the hydrological part of the blog.</description>
     </item>
-    
     <item>
       <title>Hydrology basics, episode 1: streamflow, precipitation and evapotranspiration</title>
       <link>https://globxblog.github.io/blog/hydrology-basics-1/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/hydrology-basics-1/</guid>
       <description>How does water end up flowing in rivers? As schematized below, it is the result of processes that have taken place in the river basin, also known as a catchment and delineated by a red line in the figure.</description>
     </item>
-    
     <item>
       <title>Transforming a distance matrix into a map</title>
       <link>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/transforming-a-distance-matrix-into-a-map/</guid>
       <description>The map in the figure below shows the location of 195 hydrologic stations, which can be used to explore the hydrologic regimes of Australian rivers.</description>
     </item>
-    
     <item>
       <title>El NiñOz</title>
       <link>https://globxblog.github.io/blog/el-ninoz/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/el-ninoz/</guid>
       <description>The Pacific Ocean sometimes catches a fever in its Eastern tropical part (off the coasts between Central America and Peru): for extended periods of time, its surface waters are abnormally warm.</description>
     </item>
-    
     <item>
       <title>Fun with dendrograms</title>
       <link>https://globxblog.github.io/blog/fun-with-dendrograms/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/fun-with-dendrograms/</guid>
-      <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:
-the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
+      <description>A dendrogram is a way to visualise objects organised in a hierarchy. It looks like a tree where:&#xA;the leaves represent the objects of the dataset; the branches link similar leaves according to a given criterion.</description>
     </item>
-    
     <item>
       <title>How Australian rivers can be grouped into 4 main hydrologic regimes</title>
       <link>https://globxblog.github.io/blog/australian-hydrologic-regimes/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/australian-hydrologic-regimes/</guid>
       <description>Investigating the hydrologic regime of 195 rivers in Australia revealed three types of flow seasonality. At some stations, the wettest period occurs during one particular season (winter or summer), whereas at others, similar flows are observed all year round.</description>
     </item>
-    
     <item>
       <title>Sonification techniques: sequencing</title>
       <link>https://globxblog.github.io/blog/sonification-sequencing/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/sonification-sequencing/</guid>
       <description>Sounds triggered by events The map below shows the main flood events of 2019, their duration and the size of the flood-affected area (for further discussion of this dataset, see the post Sonification techniques: mapping data to pitch and volume).</description>
     </item>
-    
     <item>
       <title>Exploring the hydrologic regime of 195 rivers in Australia</title>
       <link>https://globxblog.github.io/blog/australian-river-cruises/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/australian-river-cruises/</guid>
       <description>Plotting hydrologic regimes Most hydrologic studies start by determining the average quantity of water in rivers and how it is distributed throughout the year.</description>
     </item>
-    
     <item>
       <title>Sonification techniques: mapping data to pitch and volume</title>
       <link>https://globxblog.github.io/blog/sonification-pitch-volume-mapping/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/sonification-pitch-volume-mapping/</guid>
       <description>Mapping data to visual or auditory properties A common visualization technique is to use the color or size of symbols to represent data. The bubble map below shows an example.</description>
     </item>
-    
     <item>
       <title>A short introduction to data sonification</title>
       <link>https://globxblog.github.io/blog/sonification-intro/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://globxblog.github.io/blog/sonification-intro/</guid>
       <description>What is data sonification? Sonification refers to the transformation of data into sound, using some algorithmic process. Here are three examples worth a thousand words:</description>
     </item>
-    
   </channel>
 </rss>
