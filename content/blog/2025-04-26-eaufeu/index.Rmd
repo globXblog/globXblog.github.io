@@ -1,0 +1,44 @@
+---
+slug: eaufeu
+title: 'Drought and Fire Conditions in France, 1959-2099'
+thumbnail_title: 'Drought and Fire Conditions'
+thumbnail_subtitle: 'Past, Present and Future in France'
+thumbnail_vid: https://player.vimeo.com/video/1078937179
+author: Ben
+date: '2025-04-26'
+categories: [Exploring Data]
+tags: [sonification,animation,droughts,France]
+toc: yes
+autoCollapseToc: yes
+---
+
+In France, year 2022 witnessed [severe drought conditions](https://en.wikipedia.org/wiki/2022_European_drought), with very low flows in rivers starting already during the spring season and widespread wildfire occurrences in summer. In recent years, similar occurrences of consecutive droughts and wildfire hazards have been observed in other climatic regions of the world, including Greece, Portugal, Canary Islands, Canada, California, Australia, etc. This is no coincidence: 
+
+
+These hazards can induce numerous strong socioeconomic impacts in areas such as agriculture, silviculture, energy, ecology, drinking water, civil protection, tourism, etc., and form a complex system of multiple drivers and risks interacting over space and time. Both the individual and the joint probabilities of occurrence of these multiple hazards driving the risks are expected to evolve with climate change. 
+
+Characterizing the severity of such multiple hazards in probabilistic terms is challenging due to the multivariate nature of the problem, and the fact that each hazard has spatial structure and heterogeneity. In this presentation, we develop a relatively parsimonious stochastic model and estimation procedure to describe the joint space-time variability of three indices: (1) the Soil Wetness Index (SWI), used to characterize agricultural droughts (i.e. soil dryness); (2) River streamflow (Q), used to characterize hydrological droughts; (3) the Fire Weather Index (FWI), used to characterize fire-prone weather conditions. All indices are used at a monthly time step over the 1958-2023 period. SWI and FWI are derived from the SAFRAN atmospheric reanalysis and are available over Metropolitan France on a regular 8*8 km spatial grid (8597 pixels). Streamflow Q is measured at 232 streamgauging stations. 
+
+The statistical model is based on a causal diagram where we postulate that agricultural drought (SWI) is a precursor for both hydrological drought (Q) and fire-prone conditions (FWI). The space-time distribution of SWI is therefore modeled first using a dimensionality-reduction method to provide a parsimonious description of the space-time variability of SWI. The distribution of Q is then modeled conditionally on the average value taken by SWI on each river catchment, using a generalized additive model for location, scale and shape (GAMLSS) regression. Similarly, the distribution of FWI is modeled conditionally on the value taken by SWI on the same pixel with a GAMLSS regression.
+
+Despite its simplicity, the stochastic model is shown to appropriately reproduce several key properties of the three studied hazards, in particular their joint probability of occurrence, their long-term trends and the distribution of the spatial extent or the duration of multi-hazard events. Future work will apply the model to future projections in order to estimate how these properties evolve under climate change. We finish by discussing the relevance of the proposed approach when extrapolated to extreme levels and whether or not this simple approach is adapted to other types of multiple hazards, such as heat + humidity or storm surge + flooding.
+
+The music in the video has been created by applying the sonification technique of [parameter mapping](/blog/sonification-pitch-volume-mapping/) to the two hidden climate indices: they control the pitch and volume of two electric pianos, which you can hear in the left and right ear if you're using headphones. The amount of reverberation is also increasing with the uncertainty as one moves back in time.
+
+<br>
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/1078937179" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+This video highlights some large flood events that have left a trace in the collective memory of the country and have shaped many national strategies for flood risk management: the [1910 flood](https://en.wikipedia.org/wiki/1910_Great_Flood_of_Paris) of the Seine river, that strongly impacted Paris; the [multiple events during the mid-19th century](https://inforisques.loiret.fr/memoire-du-risque/xixe-siecle-les-3-grandes-crues-extraordinaires-de-la-loire), in particular on the Loire river; or, more than 300 years ago, the floods of [February-March 1711](https://www.reperesdecrues.developpement-durable.gouv.fr/?service_prevention_crues=&latitude=&longitude=&commune=&date_crue_debut=1711-01-01&date_crue_fin=1711-04-01&extendRepereRecherche%5Bniveau_validation%5D=&extendRepereRecherche%5Bmaximum_crue%5D=&extendRepereRecherche%5Bphec%5D=&extendRepereRecherche%5Bvisibilite%5D=&extendRepereRecherche%5Brestauration%5D=&extendRepereRecherche%5Baltitude_ngf%5D=&extendRepereRecherche%5Baltitude_nivelee%5D=&op=Lancer+la+recherche) that affected most large rivers in France including the Loire, the Seine, the Rhône and the Saône.
+
+---
+
+**Author**: Ben
+
+**Codes and data**: browse on [GitHub](https://github.com/globXblog/scripts/tree/main/src/eauFeu)
+
+---
