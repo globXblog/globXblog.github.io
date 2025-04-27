@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>droughts on globXblog</title>
+    <link>https://globxblog.github.io/tags/droughts/</link>
+    <description>Recent content in droughts on globXblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://globxblog.github.io/tags/droughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drought and Fire Conditions in France, 1959-2099</title>
+      <link>https://globxblog.github.io/blog/eaufeu/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/blog/eaufeu/</guid>
+      <description>In France, year 2022 witnessed severe drought conditions, leading to very low flows in rivers starting in the spring and widespread wildfire occurrences in summer.</description>
+    </item>
+  </channel>
+</rss>

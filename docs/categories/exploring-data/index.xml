@@ -6,8 +6,15 @@
     <description>Recent content in exploring data on globXblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://globxblog.github.io/categories/exploring-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drought and Fire Conditions in France, 1959-2099</title>
+      <link>https://globxblog.github.io/blog/eaufeu/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://globxblog.github.io/blog/eaufeu/</guid>
+      <description>In France, year 2022 witnessed severe drought conditions, leading to very low flows in rivers starting in the spring and widespread wildfire occurrences in summer.</description>
+    </item>
     <item>
       <title>Be Kind, Rewind!</title>
       <link>https://globxblog.github.io/blog/reperes-de-crues/</link>
