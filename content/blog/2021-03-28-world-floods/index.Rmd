@@ -26,7 +26,7 @@ Seasons refer to those in the Northern Hemisphere; for example Winter is Decembe
 
 <p> </p>
 
-Using the date selector, some notable large-scale floods appear on the map: [Winter 1964](https://www.northcoastjournal.com/NewsBlog/archives/2019/12/26/from-the-journal-archives-when-the-water-rose-in-1964) in Western US, [Winter 1995](https://www.cpc.ncep.noaa.gov/products/special_summaries/96_1/) in North America or [Winter 2005](https://en.wikipedia.org/wiki/2005_European_floods) in Europe are just a few of them.
+Using the date selector, some notable large-scale floods appear on the map: [Winter 1964](https://www.northcoastjournal.com/NewsBlog/archives/2019/12/26/from-the-journal-archives-when-the-water-rose-in-1964) in Western US, [Winter 1995](https://www.cpc.ncep.noaa.gov/products/special_summaries/96_1/) in North America or [Summer 2005](https://en.wikipedia.org/wiki/2005_European_floods) in Europe are just a few of them.
 
 ---
 
