@@ -1,0 +1,34 @@
+---
+slug: recover
+title: 'Happy Birthday RECOVER !!!'
+thumbnail_title: 'Happy Birthday RECOVER !!!'
+thumbnail_subtitle: '10 years of scientific research'
+thumbnail_vid: https://player.vimeo.com/video/1158358340
+author: Ben
+date: '2026-02-17'
+categories: [Exploring Data]
+tags: [sonification,animation,droughts,France]
+toc: yes
+autoCollapseToc: yes
+---
+
+[RECOVER](https://eng-recover.paca.hub.inrae.fr/) is the research unit I am working in, and it recently celebrated its tenth birthday. This provided an opportunity to illustrate its research activities by creating the RECOVER soundtrack. To this aim, each [research group](https://eng-recover.paca.hub.inrae.fr/about-us/our-themes2) contributed one emblematic time series that was animated and [sonified](/blog/sonification-intro/):
+
+1. The [Hydro-meteorological Risks](https://recover.paca.hub.inrae.fr/qui-sommes-nous/nos-equipes/rhax) group (RHAX) studies flood and drought risks in rivers, and provided a long time series of streamflow in the [Real Collobrier River](https://recover.paca.hub.inrae.fr/nos-infrastructures/le-bvre-du-real-collobrier). 
+2. The [Continental Hydrosystems](https://recover.paca.hub.inrae.fr/qui-sommes-nous/nos-equipes/freshco) group (FRESHCO) studies the processes underlying the dynamics of species in streams and lakes, and provided measurements of [invertebrate abundance](https://doi.org/10.1038/s41586-023-06400-1) at four locations along the Rhône River.
+3. The [Mediterranean Ecosystems and Risks](https://recover.paca.hub.inrae.fr/qui-sommes-nous/nos-equipes/emr) group (EMR) studies Mediterranean forest ecosystems under stress in the context of global change, and provided a time series describing the monthly growth of [Pinus halepensis](https://en.wikipedia.org/wiki/Pinus_halepensis) stems. 
+4. The [Geomechanics, Civil Engineering, Decision making, Risk](https://recover.paca.hub.inrae.fr/qui-sommes-nous/nos-equipes/g2dr) group (G²DR) studies physical mechanisms within geomaterials, the safety of hydraulic structures, and tools for integrated risk management and decision support. It provided a time series describing the evolution of interstitial pressure in a dam.
+
+<br>
+
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/1158358340" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+
+<p></p>
+
+---
+
+**Author**: Ben
+
+---
